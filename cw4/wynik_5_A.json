@@ -1,0 +1,663 @@
+MongoDB shell version v4.4.5
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("6a541818-b6e5-4f42-bfc6-423aee2bfde3") }
+MongoDB server version: 4.4.5
+[
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "PEN"
+		},
+		"avg" : NumberDecimal("4661.235"),
+		"sum" : NumberDecimal("18644.94")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "GBP"
+		},
+		"avg" : NumberDecimal("6149.19"),
+		"sum" : NumberDecimal("6149.19")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "HNL"
+		},
+		"avg" : NumberDecimal("5504.863333333333333333333333333333"),
+		"sum" : NumberDecimal("16514.59")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "XPF"
+		},
+		"avg" : NumberDecimal("4759.07"),
+		"sum" : NumberDecimal("4759.07")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CUP"
+		},
+		"avg" : NumberDecimal("5005.78"),
+		"sum" : NumberDecimal("15017.34")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "IRR"
+		},
+		"avg" : NumberDecimal("4417.373333333333333333333333333333"),
+		"sum" : NumberDecimal("26504.24")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "GTQ"
+		},
+		"avg" : NumberDecimal("5806.3"),
+		"sum" : NumberDecimal("5806.3")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ZMW"
+		},
+		"avg" : NumberDecimal("5569.56"),
+		"sum" : NumberDecimal("5569.56")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "PHP"
+		},
+		"avg" : NumberDecimal("4941.928333333333333333333333333333"),
+		"sum" : NumberDecimal("118606.28")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "LYD"
+		},
+		"avg" : NumberDecimal("4382.495"),
+		"sum" : NumberDecimal("8764.99")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ALL"
+		},
+		"avg" : NumberDecimal("3325.48"),
+		"sum" : NumberDecimal("3325.48")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MYR"
+		},
+		"avg" : NumberDecimal("4781.12"),
+		"sum" : NumberDecimal("4781.12")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "VND"
+		},
+		"avg" : NumberDecimal("4520.0325"),
+		"sum" : NumberDecimal("36160.26")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "NPR"
+		},
+		"avg" : NumberDecimal("5792.26"),
+		"sum" : NumberDecimal("5792.26")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "VEF"
+		},
+		"avg" : NumberDecimal("4166.64"),
+		"sum" : NumberDecimal("8333.28")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "PKR"
+		},
+		"avg" : NumberDecimal("4734.50"),
+		"sum" : NumberDecimal("18938.00")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "KZT"
+		},
+		"avg" : NumberDecimal("3788.95"),
+		"sum" : NumberDecimal("3788.95")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "NIO"
+		},
+		"avg" : NumberDecimal("4985.64"),
+		"sum" : NumberDecimal("9971.28")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CDF"
+		},
+		"avg" : NumberDecimal("6114.4"),
+		"sum" : NumberDecimal("12228.8")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "BGN"
+		},
+		"avg" : NumberDecimal("5300.22"),
+		"sum" : NumberDecimal("21200.88")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "KYD"
+		},
+		"avg" : NumberDecimal("3760.89"),
+		"sum" : NumberDecimal("3760.89")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "BOB"
+		},
+		"avg" : NumberDecimal("5263.3"),
+		"sum" : NumberDecimal("5263.3")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MNT"
+		},
+		"avg" : NumberDecimal("5428.9025"),
+		"sum" : NumberDecimal("21715.61")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MWK"
+		},
+		"avg" : NumberDecimal("3574.42"),
+		"sum" : NumberDecimal("3574.42")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "TZS"
+		},
+		"avg" : NumberDecimal("3526.185"),
+		"sum" : NumberDecimal("7052.37")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CZK"
+		},
+		"avg" : NumberDecimal("4644.5525"),
+		"sum" : NumberDecimal("37156.42")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "TJS"
+		},
+		"avg" : NumberDecimal("4087.71"),
+		"sum" : NumberDecimal("4087.71")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "USD"
+		},
+		"avg" : NumberDecimal("4978.732"),
+		"sum" : NumberDecimal("74680.98")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "RWF"
+		},
+		"avg" : NumberDecimal("4632.88"),
+		"sum" : NumberDecimal("4632.88")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "NZD"
+		},
+		"avg" : NumberDecimal("5328.46"),
+		"sum" : NumberDecimal("5328.46")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "RSD"
+		},
+		"avg" : NumberDecimal("4276.56"),
+		"sum" : NumberDecimal("4276.56")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "UAH"
+		},
+		"avg" : NumberDecimal("5058.98"),
+		"sum" : NumberDecimal("40471.84")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ILS"
+		},
+		"avg" : NumberDecimal("5431.83"),
+		"sum" : NumberDecimal("16295.49")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ZWL"
+		},
+		"avg" : NumberDecimal("5792.17"),
+		"sum" : NumberDecimal("5792.17")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "NOK"
+		},
+		"avg" : NumberDecimal("4773.66"),
+		"sum" : NumberDecimal("4773.66")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MKD"
+		},
+		"avg" : NumberDecimal("3835.05"),
+		"sum" : NumberDecimal("3835.05")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "SEK"
+		},
+		"avg" : NumberDecimal("5060.013571428571428571428571428571"),
+		"sum" : NumberDecimal("70840.19")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "AMD"
+		},
+		"avg" : NumberDecimal("4921.866"),
+		"sum" : NumberDecimal("24609.33")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MAD"
+		},
+		"avg" : NumberDecimal("3818.85"),
+		"sum" : NumberDecimal("3818.85")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "IDR"
+		},
+		"avg" : NumberDecimal("4907.918030303030303030303030303030"),
+		"sum" : NumberDecimal("323922.59")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ZAR"
+		},
+		"avg" : NumberDecimal("3930.306666666666666666666666666667"),
+		"sum" : NumberDecimal("11790.92")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ARS"
+		},
+		"avg" : NumberDecimal("4648.40"),
+		"sum" : NumberDecimal("23242.00")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "PLN"
+		},
+		"avg" : NumberDecimal("5042.821111111111111111111111111111"),
+		"sum" : NumberDecimal("90770.78")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "HRK"
+		},
+		"avg" : NumberDecimal("4870.964"),
+		"sum" : NumberDecimal("24354.82")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MMK"
+		},
+		"avg" : NumberDecimal("4629.42"),
+		"sum" : NumberDecimal("4629.42")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "COP"
+		},
+		"avg" : NumberDecimal("4936.6825"),
+		"sum" : NumberDecimal("19746.73")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "EUR"
+		},
+		"avg" : NumberDecimal("4901.8294"),
+		"sum" : NumberDecimal("245091.47")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CAD"
+		},
+		"avg" : NumberDecimal("5306.872727272727272727272727272727"),
+		"sum" : NumberDecimal("58375.60")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "IQD"
+		},
+		"avg" : NumberDecimal("4269.39"),
+		"sum" : NumberDecimal("4269.39")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ETB"
+		},
+		"avg" : NumberDecimal("5436.11"),
+		"sum" : NumberDecimal("5436.11")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "THB"
+		},
+		"avg" : NumberDecimal("4604.392"),
+		"sum" : NumberDecimal("23021.96")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CNY"
+		},
+		"avg" : NumberDecimal("4954.740842105263157894736842105263"),
+		"sum" : NumberDecimal("470700.38")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "NGN"
+		},
+		"avg" : NumberDecimal("4157.705"),
+		"sum" : NumberDecimal("24946.23")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "DOP"
+		},
+		"avg" : NumberDecimal("5168.685"),
+		"sum" : NumberDecimal("20674.74")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "BWP"
+		},
+		"avg" : NumberDecimal("4076.29"),
+		"sum" : NumberDecimal("4076.29")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "SRD"
+		},
+		"avg" : NumberDecimal("5286.68"),
+		"sum" : NumberDecimal("5286.68")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "XOF"
+		},
+		"avg" : NumberDecimal("5960.683333333333333333333333333333"),
+		"sum" : NumberDecimal("17882.05")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "JPY"
+		},
+		"avg" : NumberDecimal("5078.728333333333333333333333333333"),
+		"sum" : NumberDecimal("60944.74")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "EGP"
+		},
+		"avg" : NumberDecimal("5579.3"),
+		"sum" : NumberDecimal("5579.3")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MXN"
+		},
+		"avg" : NumberDecimal("5022.90"),
+		"sum" : NumberDecimal("50229.00")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "MGA"
+		},
+		"avg" : NumberDecimal("4853.663333333333333333333333333333"),
+		"sum" : NumberDecimal("14560.99")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "BYR"
+		},
+		"avg" : NumberDecimal("5095.79"),
+		"sum" : NumberDecimal("5095.79")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "UZS"
+		},
+		"avg" : NumberDecimal("3573.03"),
+		"sum" : NumberDecimal("3573.03")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "BRL"
+		},
+		"avg" : NumberDecimal("4512.001818181818181818181818181818"),
+		"sum" : NumberDecimal("49632.02")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "XAF"
+		},
+		"avg" : NumberDecimal("4698.22"),
+		"sum" : NumberDecimal("14094.66")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "AFN"
+		},
+		"avg" : NumberDecimal("5585.163333333333333333333333333333"),
+		"sum" : NumberDecimal("16755.49")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "PYG"
+		},
+		"avg" : NumberDecimal("4874.69"),
+		"sum" : NumberDecimal("4874.69")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "YER"
+		},
+		"avg" : NumberDecimal("4570.833333333333333333333333333333"),
+		"sum" : NumberDecimal("13712.50")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "CLP"
+		},
+		"avg" : NumberDecimal("5252.2375"),
+		"sum" : NumberDecimal("21008.95")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "RUB"
+		},
+		"avg" : NumberDecimal("4989.547916666666666666666666666667"),
+		"sum" : NumberDecimal("119749.15")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "VUV"
+		},
+		"avg" : NumberDecimal("6418.27"),
+		"sum" : NumberDecimal("6418.27")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "KRW"
+		},
+		"avg" : NumberDecimal("6689.91"),
+		"sum" : NumberDecimal("13379.82")
+	},
+	{
+		"_id" : {
+			"nationality" : "Poland",
+			"sex" : "Female",
+			"currency" : "ISK"
+		},
+		"avg" : NumberDecimal("4316.41"),
+		"sum" : NumberDecimal("4316.41")
+	}
+]

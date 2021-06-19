@@ -1,0 +1,1 @@
+1 4 5 MR poprawić do finalize i dodać count
