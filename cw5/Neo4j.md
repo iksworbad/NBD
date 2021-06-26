@@ -40,3 +40,22 @@ MATCH (p:Person)-[:DIRECTED]->(m:Movie)<-[:WROTE]-(p:Person) RETURN p, m
 MATCH (k:Person)-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(h:Person) WHERE h.name = "Hugo Weaving" AND  k.name = "Keanu Reeves" RETURN h, m, k
 ```
 
+### zad 9
+```
+CREATE (mov:Movie{title:"Captain America: The First Avenger"})
+CREATE (dir:Person{name:"Joe Johnston"})
+CREATE (dir)-[:DIRECTED]->(mov)
+CREATE (wr1:Person{name:"Christopher Markus"})
+CREATE (wr1)-[:WROTE]->(mov)
+CREATE (wr2:Person{name:"Stephen McFlee"})
+CREATE (wr2)-[:WROTE]->(mov)
+CREATE (wr3:Person{name:"Joe Simon"})
+CREATE (wr3)-[:WROTE]->(mov)
+CREATE (act1:Person{name:"Chris Evans"})
+CREATE (act1)-[:ACTED_IN]->(mov)
+CREATE (act2:Person{name:"Samuel L. Jackson"})
+CREATE (act2)-[:ACTED_IN]->(mov)
+CREATE (act3:Person{name:"Hugo Weaving"})
+CREATE (act3)-[:ACTED_IN]->(mov)
+return mov, dir, wr1,wr2,wr3,act1,act2,act3
+```
