@@ -1,20 +1,25 @@
 db.people.mapReduce(
   function () {
-    emit(this.sex, { weight: Number(this.weight), height: Number(this.height) })
+    emit(this.sex, { count: 1, weight: Number(this.weight), height: Number(this.height) })
   },
   function (key, values) {
-    const length = values.length;
-    const weights = values.map( function(u) { return u.weight; } );
-    const heights = values.map( function(u) { return u.height; } );
-
-    return {
-      sex: key,
-      length: length,
-      weight: Array.sum(weights) / length,
-      heigh: Array.sum(heights) / length,
-    }
+    let value = {
+      count: values.reduce((a, b) => a + b.count, 0),
+      weight: values.reduce((a, b) => a + b.weight, 0),
+      height: values.reduce((a, b) => a + b.height, 0),
+    };
+    return value;
   },
-  { out: "avg_values" }
+  {
+    out: "avg_values",
+    finalize: function (key, value) {
+      return {
+        sex: key,
+        avgHeight: value.height / value.count,
+        avgWeight: value.weight / value.count,
+      }
+    }
+  }
 )
 
 printjson(db.avg_values.find({}).toArray());

@@ -1,378 +1,8 @@
 MongoDB shell version v4.4.5
 connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
-Implicit session: session { "id" : UUID("6bda9f4f-2a9a-4362-8140-f565001ce435") }
+Implicit session: session { "id" : UUID("6b046802-6ac5-4733-8a28-9bdd64d5d32d") }
 MongoDB server version: 4.4.5
 [
-	{
-		"_id" : "Vietnam",
-		"value" : {
-			"nationality" : "Vietnam",
-			"length" : 83,
-			"min" : 1.6588074623788909,
-			"max" : 3.2970728944432377,
-			"avg" : 2.504102236093673
-		}
-	},
-	{
-		"_id" : "Philippines",
-		"value" : {
-			"nationality" : "Philippines",
-			"length" : 518,
-			"min" : 1.7747775714237721,
-			"max" : 4.0149218778204965,
-			"avg" : 2.520640754830297
-		}
-	},
-	{
-		"_id" : "Algeria",
-		"value" : {
-			"nationality" : "Algeria",
-			"length" : 1,
-			"min" : 2.859446385380274,
-			"max" : 2.859446385380274,
-			"avg" : 2.859446385380274
-		}
-	},
-	{
-		"_id" : "Macao",
-		"value" : {
-			"nationality" : "Macao",
-			"length" : 1,
-			"min" : 2.3988477689826944,
-			"max" : 2.3988477689826944,
-			"avg" : 2.3988477689826944
-		}
-	},
-	{
-		"_id" : "Tuvalu",
-		"value" : {
-			"nationality" : "Tuvalu",
-			"length" : 1,
-			"min" : 2.260418435695907,
-			"max" : 2.260418435695907,
-			"avg" : 2.260418435695907
-		}
-	},
-	{
-		"_id" : "Haiti",
-		"value" : {
-			"nationality" : "Haiti",
-			"length" : 11,
-			"min" : 2.1953951096958053,
-			"max" : 3.4706505929936307,
-			"avg" : 2.6053500838405976
-		}
-	},
-	{
-		"_id" : "Laos",
-		"value" : {
-			"nationality" : "Laos",
-			"length" : 7,
-			"min" : 2.0414405907869932,
-			"max" : 2.8470547935007056,
-			"avg" : 2.4706560500173143
-		}
-	},
-	{
-		"_id" : "Slovakia",
-		"value" : {
-			"nationality" : "Slovakia",
-			"length" : 1,
-			"min" : 2.1338818810983464,
-			"max" : 2.1338818810983464,
-			"avg" : 2.1338818810983464
-		}
-	},
-	{
-		"_id" : "Estonia",
-		"value" : {
-			"nationality" : "Estonia",
-			"length" : 11,
-			"min" : 1.8560878620789445,
-			"max" : 2.868360155605993,
-			"avg" : 2.554213616931857
-		}
-	},
-	{
-		"_id" : "Ghana",
-		"value" : {
-			"nationality" : "Ghana",
-			"length" : 9,
-			"min" : 2.2309636417250767,
-			"max" : 3.2504337277875828,
-			"avg" : 2.5844519996457063
-		}
-	},
-	{
-		"_id" : "Yemen",
-		"value" : {
-			"nationality" : "Yemen",
-			"length" : 33,
-			"min" : 2.091065689284758,
-			"max" : 3.485489627858924,
-			"avg" : 2.5520741902141806
-		}
-	},
-	{
-		"_id" : "Bosnia and Herzegovina",
-		"value" : {
-			"nationality" : "Bosnia and Herzegovina",
-			"length" : 32,
-			"min" : 1.6930664311421884,
-			"max" : 3.5973950079941273,
-			"avg" : 2.5418629730315736
-		}
-	},
-	{
-		"_id" : "Morocco",
-		"value" : {
-			"nationality" : "Morocco",
-			"length" : 34,
-			"min" : 2.0182304322324796,
-			"max" : 3.2906040192137875,
-			"avg" : 2.5874999241815946
-		}
-	},
-	{
-		"_id" : "Gabon",
-		"value" : {
-			"nationality" : "Gabon",
-			"length" : 2,
-			"min" : 2.2266802561601597,
-			"max" : 2.9048270894929464,
-			"avg" : 2.565753672826553
-		}
-	},
-	{
-		"_id" : "Armenia",
-		"value" : {
-			"nationality" : "Armenia",
-			"length" : 39,
-			"min" : 1.9173869330022848,
-			"max" : 3.166851100446302,
-			"avg" : 2.4941789322543046
-		}
-	},
-	{
-		"_id" : "Poland",
-		"value" : {
-			"nationality" : "Poland",
-			"length" : 324,
-			"min" : 1.8006317259010836,
-			"max" : 3.976770609771494,
-			"avg" : 2.533212395415839
-		}
-	},
-	{
-		"_id" : "Saint Kitts and Nevis",
-		"value" : {
-			"nationality" : "Saint Kitts and Nevis",
-			"length" : 4,
-			"min" : 2.518137321901941,
-			"max" : 3.006261206327215,
-			"avg" : 2.780112893513996
-		}
-	},
-	{
-		"_id" : "Uganda",
-		"value" : {
-			"nationality" : "Uganda",
-			"length" : 22,
-			"min" : 2.0585897193172045,
-			"max" : 3.324570873490975,
-			"avg" : 2.579992632681938
-		}
-	},
-	{
-		"_id" : "Democratic Republic of the Congo",
-		"value" : {
-			"nationality" : "Democratic Republic of the Congo",
-			"length" : 18,
-			"min" : 1.8275531401604772,
-			"max" : 3.3515401571866743,
-			"avg" : 2.65302712054953
-		}
-	},
-	{
-		"_id" : "Ethiopia",
-		"value" : {
-			"nationality" : "Ethiopia",
-			"length" : 25,
-			"min" : 2.0553672857450285,
-			"max" : 3.285411863239378,
-			"avg" : 2.5473965952790034
-		}
-	},
-	{
-		"_id" : "Benin",
-		"value" : {
-			"nationality" : "Benin",
-			"length" : 7,
-			"min" : 2.1326707132619114,
-			"max" : 3.0296481888974,
-			"avg" : 2.5778364569961796
-		}
-	},
-	{
-		"_id" : "French Guiana",
-		"value" : {
-			"nationality" : "French Guiana",
-			"length" : 2,
-			"min" : 2.2271800501837578,
-			"max" : 2.8911219025396604,
-			"avg" : 2.559150976361709
-		}
-	},
-	{
-		"_id" : "Moldova",
-		"value" : {
-			"nationality" : "Moldova",
-			"length" : 14,
-			"min" : 1.9688381123290277,
-			"max" : 3.256715420989366,
-			"avg" : 2.557295819429361
-		}
-	},
-	{
-		"_id" : "Rwanda",
-		"value" : {
-			"nationality" : "Rwanda",
-			"length" : 3,
-			"min" : 2.283495766227415,
-			"max" : 2.760395919371098,
-			"avg" : 2.596047518885389
-		}
-	},
-	{
-		"_id" : "Mali",
-		"value" : {
-			"nationality" : "Mali",
-			"length" : 12,
-			"min" : 1.924668555616468,
-			"max" : 3.167016743066081,
-			"avg" : 2.491941030275992
-		}
-	},
-	{
-		"_id" : "Somalia",
-		"value" : {
-			"nationality" : "Somalia",
-			"length" : 1,
-			"min" : 2.9953705951906366,
-			"max" : 2.9953705951906366,
-			"avg" : 2.9953705951906366
-		}
-	},
-	{
-		"_id" : "Albania",
-		"value" : {
-			"nationality" : "Albania",
-			"length" : 38,
-			"min" : 1.8995343497963386,
-			"max" : 3.198582559382973,
-			"avg" : 2.470893828760488
-		}
-	},
-	{
-		"_id" : "Spain",
-		"value" : {
-			"nationality" : "Spain",
-			"length" : 15,
-			"min" : 2.1718839959357132,
-			"max" : 3.4935660206343093,
-			"avg" : 2.6172174392961134
-		}
-	},
-	{
-		"_id" : "Guinea-Bissau",
-		"value" : {
-			"nationality" : "Guinea-Bissau",
-			"length" : 3,
-			"min" : 2.3285128184292065,
-			"max" : 2.654403588086242,
-			"avg" : 2.4427204123390514
-		}
-	},
-	{
-		"_id" : "Greenland",
-		"value" : {
-			"nationality" : "Greenland",
-			"length" : 1,
-			"min" : 2.587231726224435,
-			"max" : 2.587231726224435,
-			"avg" : 2.587231726224435
-		}
-	},
-	{
-		"_id" : "East Timor",
-		"value" : {
-			"nationality" : "East Timor",
-			"length" : 4,
-			"min" : 2.1525145394421963,
-			"max" : 3.27295665335962,
-			"avg" : 2.5827978752662304
-		}
-	},
-	{
-		"_id" : "Burundi",
-		"value" : {
-			"nationality" : "Burundi",
-			"length" : 3,
-			"min" : 2.341760581267604,
-			"max" : 2.8502450131594546,
-			"avg" : 2.564831294896216
-		}
-	},
-	{
-		"_id" : "Venezuela",
-		"value" : {
-			"nationality" : "Venezuela",
-			"length" : 38,
-			"min" : 1.9136466798568403,
-			"max" : 3.1135855490289446,
-			"avg" : 2.4913624546028568
-		}
-	},
-	{
-		"_id" : "Lithuania",
-		"value" : {
-			"nationality" : "Lithuania",
-			"length" : 19,
-			"min" : 1.9688339749666333,
-			"max" : 3.0887830005968033,
-			"avg" : 2.4414208345235187
-		}
-	},
-	{
-		"_id" : "Comoros",
-		"value" : {
-			"nationality" : "Comoros",
-			"length" : 10,
-			"min" : 1.9736788594015309,
-			"max" : 3.386465840113391,
-			"avg" : 2.5439043034337954
-		}
-	},
-	{
-		"_id" : "Sudan",
-		"value" : {
-			"nationality" : "Sudan",
-			"length" : 8,
-			"min" : 2.2771848958184258,
-			"max" : 2.6388338263210724,
-			"avg" : 2.4951753358198894
-		}
-	},
-	{
-		"_id" : "Gambia",
-		"value" : {
-			"nationality" : "Gambia",
-			"length" : 9,
-			"min" : 1.7840466777748911,
-			"max" : 2.904151838075552,
-			"avg" : 2.3773405222453228
-		}
-	},
 	{
 		"_id" : "Namibia",
 		"value" : {
@@ -380,1377 +10,8 @@ MongoDB server version: 4.4.5
 			"length" : 5,
 			"min" : 2.2333321771690473,
 			"max" : 3.2280397498780373,
-			"avg" : 2.6736439032858965
-		}
-	},
-	{
-		"_id" : "Russia",
-		"value" : {
-			"nationality" : "Russia",
-			"length" : 596,
-			"min" : 1.7631221751685486,
-			"max" : 3.988445766499928,
-			"avg" : 2.5399125306930723
-		}
-	},
-	{
-		"_id" : "Kazakhstan",
-		"value" : {
-			"nationality" : "Kazakhstan",
-			"length" : 29,
-			"min" : 1.6807079935832503,
-			"max" : 3.689674012515099,
-			"avg" : 2.5872296835537165
-		}
-	},
-	{
-		"_id" : "Luxembourg",
-		"value" : {
-			"nationality" : "Luxembourg",
-			"length" : 19,
-			"min" : 1.9267057864459571,
-			"max" : 3.3219351226480156,
-			"avg" : 2.631112838002146
-		}
-	},
-	{
-		"_id" : "Libya",
-		"value" : {
-			"nationality" : "Libya",
-			"length" : 13,
-			"min" : 2.1427423728295794,
-			"max" : 3.514959498858504,
-			"avg" : 2.727409420047268
-		}
-	},
-	{
-		"_id" : "Senegal",
-		"value" : {
-			"nationality" : "Senegal",
-			"length" : 9,
-			"min" : 2.110083404913989,
-			"max" : 2.6591448446940533,
-			"avg" : 2.341557086385516
-		}
-	},
-	{
-		"_id" : "Bhutan",
-		"value" : {
-			"nationality" : "Bhutan",
-			"length" : 6,
-			"min" : 1.941885638320743,
-			"max" : 3.135770002294631,
-			"avg" : 2.4056604894582003
-		}
-	},
-	{
-		"_id" : "Fiji",
-		"value" : {
-			"nationality" : "Fiji",
-			"length" : 1,
-			"min" : 2.1202149695398855,
-			"max" : 2.1202149695398855,
-			"avg" : 2.1202149695398855
-		}
-	},
-	{
-		"_id" : "Martinique",
-		"value" : {
-			"nationality" : "Martinique",
-			"length" : 1,
-			"min" : 2.4025383631333916,
-			"max" : 2.4025383631333916,
-			"avg" : 2.4025383631333916
-		}
-	},
-	{
-		"_id" : "Kyrgyzstan",
-		"value" : {
-			"nationality" : "Kyrgyzstan",
-			"length" : 16,
-			"min" : 1.6846474930530864,
-			"max" : 3.4055769789718404,
-			"avg" : 2.379456317353873
-		}
-	},
-	{
-		"_id" : "Malaysia",
-		"value" : {
-			"nationality" : "Malaysia",
-			"length" : 41,
-			"min" : 1.854461856797744,
-			"max" : 3.653428355033911,
-			"avg" : 2.5612388990594757
-		}
-	},
-	{
-		"_id" : "Brunei",
-		"value" : {
-			"nationality" : "Brunei",
-			"length" : 1,
-			"min" : 2.502697259105827,
-			"max" : 2.502697259105827,
-			"avg" : 2.502697259105827
-		}
-	},
-	{
-		"_id" : "Colombia",
-		"value" : {
-			"nationality" : "Colombia",
-			"length" : 150,
-			"min" : 1.8549317336103284,
-			"max" : 3.54010351305359,
-			"avg" : 2.577985802654869
-		}
-	},
-	{
-		"_id" : "Palestinian Territory",
-		"value" : {
-			"nationality" : "Palestinian Territory",
-			"length" : 37,
-			"min" : 1.9179525110549178,
-			"max" : 3.554150728191123,
-			"avg" : 2.5519771078365188
-		}
-	},
-	{
-		"_id" : "Jamaica",
-		"value" : {
-			"nationality" : "Jamaica",
-			"length" : 10,
-			"min" : 2.2275369146558597,
-			"max" : 2.8975717835121535,
-			"avg" : 2.4931498920250346
-		}
-	},
-	{
-		"_id" : "American Samoa",
-		"value" : {
-			"nationality" : "American Samoa",
-			"length" : 1,
-			"min" : 2.239833691807659,
-			"max" : 2.239833691807659,
-			"avg" : 2.239833691807659
-		}
-	},
-	{
-		"_id" : "Nicaragua",
-		"value" : {
-			"nationality" : "Nicaragua",
-			"length" : 15,
-			"min" : 1.9775488264201302,
-			"max" : 3.0037211079338597,
-			"avg" : 2.417094824384103
-		}
-	},
-	{
-		"_id" : "Brazil",
-		"value" : {
-			"nationality" : "Brazil",
-			"length" : 375,
-			"min" : 1.7455901881799916,
-			"max" : 4.062913727068199,
-			"avg" : 2.5618104713178713
-		}
-	},
-	{
-		"_id" : "French Polynesia",
-		"value" : {
-			"nationality" : "French Polynesia",
-			"length" : 5,
-			"min" : 2.029968846098141,
-			"max" : 2.8539227949185673,
-			"avg" : 2.5351408860541467
-		}
-	},
-	{
-		"_id" : "Jordan",
-		"value" : {
-			"nationality" : "Jordan",
-			"length" : 8,
-			"min" : 2.121020718956612,
-			"max" : 3.235315976803472,
-			"avg" : 2.6643190252349185
-		}
-	},
-	{
-		"_id" : "Peru",
-		"value" : {
-			"nationality" : "Peru",
-			"length" : 145,
-			"min" : 1.780600236198692,
-			"max" : 3.636334544992971,
-			"avg" : 2.527264557662211
-		}
-	},
-	{
-		"_id" : "Niger",
-		"value" : {
-			"nationality" : "Niger",
-			"length" : 8,
-			"min" : 2.007204296186382,
-			"max" : 3.022683231486928,
-			"avg" : 2.6384679570852145
-		}
-	},
-	{
-		"_id" : "Belgium",
-		"value" : {
-			"nationality" : "Belgium",
-			"length" : 5,
-			"min" : 2.0047926099827214,
-			"max" : 2.8997682388567076,
-			"avg" : 2.6140778626016408
-		}
-	},
-	{
-		"_id" : "Equatorial Guinea",
-		"value" : {
-			"nationality" : "Equatorial Guinea",
-			"length" : 1,
-			"min" : 2.4784158605052227,
-			"max" : 2.4784158605052227,
-			"avg" : 2.4784158605052227
-		}
-	},
-	{
-		"_id" : "Botswana",
-		"value" : {
-			"nationality" : "Botswana",
-			"length" : 12,
-			"min" : 2.166103584914847,
-			"max" : 2.718178743838766,
-			"avg" : 2.4653017456531434
-		}
-	},
-	{
-		"_id" : "United Kingdom",
-		"value" : {
-			"nationality" : "United Kingdom",
-			"length" : 18,
-			"min" : 1.9427928671881647,
-			"max" : 3.190315898243853,
-			"avg" : 2.378573603898099
-		}
-	},
-	{
-		"_id" : "Chile",
-		"value" : {
-			"nationality" : "Chile",
-			"length" : 28,
-			"min" : 1.6951291627010803,
-			"max" : 2.9798858408255153,
-			"avg" : 2.486968056067229
-		}
-	},
-	{
-		"_id" : "Panama",
-		"value" : {
-			"nationality" : "Panama",
-			"length" : 26,
-			"min" : 2.0497034879989777,
-			"max" : 3.3204916913317146,
-			"avg" : 2.499226462988103
-		}
-	},
-	{
-		"_id" : "South Africa",
-		"value" : {
-			"nationality" : "South Africa",
-			"length" : 48,
-			"min" : 1.7335043301262825,
-			"max" : 4.054150514193363,
-			"avg" : 2.586499470004275
-		}
-	},
-	{
-		"_id" : "Ireland",
-		"value" : {
-			"nationality" : "Ireland",
-			"length" : 37,
-			"min" : 1.7753180049744592,
-			"max" : 3.3519500903908477,
-			"avg" : 2.594602693286139
-		}
-	},
-	{
-		"_id" : "Maldives",
-		"value" : {
-			"nationality" : "Maldives",
-			"length" : 5,
-			"min" : 2.3654619429922965,
-			"max" : 2.8258302397598007,
-			"avg" : 2.5389870790829354
-		}
-	},
-	{
-		"_id" : "Mauritania",
-		"value" : {
-			"nationality" : "Mauritania",
-			"length" : 2,
-			"min" : 2.0427479249813243,
-			"max" : 2.26996212151413,
-			"avg" : 2.156355023247727
-		}
-	},
-	{
-		"_id" : "Trinidad and Tobago",
-		"value" : {
-			"nationality" : "Trinidad and Tobago",
-			"length" : 4,
-			"min" : 2.2714055076873128,
-			"max" : 3.1519844903401175,
-			"avg" : 2.7598645704582987
-		}
-	},
-	{
-		"_id" : "Portugal",
-		"value" : {
-			"nationality" : "Portugal",
-			"length" : 310,
-			"min" : 1.7253277918955943,
-			"max" : 3.9667890196201694,
-			"avg" : 2.547361404453798
-		}
-	},
-	{
-		"_id" : "Mexico",
-		"value" : {
-			"nationality" : "Mexico",
-			"length" : 90,
-			"min" : 1.8917857995347576,
-			"max" : 3.62708751496718,
-			"avg" : 2.547429001960035
-		}
-	},
-	{
-		"_id" : "Guyana",
-		"value" : {
-			"nationality" : "Guyana",
-			"length" : 2,
-			"min" : 2.4096889211890877,
-			"max" : 2.8214370737868264,
-			"avg" : 2.615562997487957
-		}
-	},
-	{
-		"_id" : "Bolivia",
-		"value" : {
-			"nationality" : "Bolivia",
-			"length" : 26,
-			"min" : 2.046124473638279,
-			"max" : 3.204862302606188,
-			"avg" : 2.529160675430759
-		}
-	},
-	{
-		"_id" : "Finland",
-		"value" : {
-			"nationality" : "Finland",
-			"length" : 48,
-			"min" : 1.8313044445355133,
-			"max" : 3.688879211052598,
-			"avg" : 2.562844713976524
-		}
-	},
-	{
-		"_id" : "Uruguay",
-		"value" : {
-			"nationality" : "Uruguay",
-			"length" : 13,
-			"min" : 2.0368800960879323,
-			"max" : 3.4361426322308106,
-			"avg" : 2.5324761962268356
-		}
-	},
-	{
-		"_id" : "Afghanistan",
-		"value" : {
-			"nationality" : "Afghanistan",
-			"length" : 38,
-			"min" : 1.84302993485763,
-			"max" : 3.168072427781462,
-			"avg" : 2.5048400880254937
-		}
-	},
-	{
-		"_id" : "Aland Islands",
-		"value" : {
-			"nationality" : "Aland Islands",
-			"length" : 4,
-			"min" : 2.242250899543061,
-			"max" : 3.3929112148989558,
-			"avg" : 2.8162616489658907
-		}
-	},
-	{
-		"_id" : "Turkmenistan",
-		"value" : {
-			"nationality" : "Turkmenistan",
-			"length" : 10,
-			"min" : 2.1536036875349125,
-			"max" : 3.0263793694794967,
-			"avg" : 2.607469340623342
-		}
-	},
-	{
-		"_id" : "Hungary",
-		"value" : {
-			"nationality" : "Hungary",
-			"length" : 6,
-			"min" : 2.2357117184320283,
-			"max" : 3.269237888437416,
-			"avg" : 2.6314073634053803
-		}
-	},
-	{
-		"_id" : "Monaco",
-		"value" : {
-			"nationality" : "Monaco",
-			"length" : 1,
-			"min" : 2.89279758282314,
-			"max" : 2.89279758282314,
-			"avg" : 2.89279758282314
-		}
-	},
-	{
-		"_id" : "Japan",
-		"value" : {
-			"nationality" : "Japan",
-			"length" : 180,
-			"min" : 1.890452276508069,
-			"max" : 3.7208271542614155,
-			"avg" : 2.5288979118123063
-		}
-	},
-	{
-		"_id" : "Saudi Arabia",
-		"value" : {
-			"nationality" : "Saudi Arabia",
-			"length" : 8,
-			"min" : 1.9971991294865286,
-			"max" : 3.2095388696280183,
-			"avg" : 2.567648497567066
-		}
-	},
-	{
-		"_id" : "Malawi",
-		"value" : {
-			"nationality" : "Malawi",
-			"length" : 5,
-			"min" : 2.329026327914253,
-			"max" : 3.0498934041274013,
-			"avg" : 2.729914270013302
-		}
-	},
-	{
-		"_id" : "Samoa",
-		"value" : {
-			"nationality" : "Samoa",
-			"length" : 1,
-			"min" : 2.0544882004532683,
-			"max" : 2.0544882004532683,
-			"avg" : 2.0544882004532683
-		}
-	},
-	{
-		"_id" : "Serbia",
-		"value" : {
-			"nationality" : "Serbia",
-			"length" : 58,
-			"min" : 1.9731808801556265,
-			"max" : 4.35483280468202,
-			"avg" : 2.5789440843944176
-		}
-	},
-	{
-		"_id" : "Zimbabwe",
-		"value" : {
-			"nationality" : "Zimbabwe",
-			"length" : 15,
-			"min" : 2.2609825375832817,
-			"max" : 3.5120277734029917,
-			"avg" : 2.6975918802407333
-		}
-	},
-	{
-		"_id" : "United States",
-		"value" : {
-			"nationality" : "United States",
-			"length" : 222,
-			"min" : 1.880366267168511,
-			"max" : 3.6695149419991684,
-			"avg" : 2.5746534319422314
-		}
-	},
-	{
-		"_id" : "Georgia",
-		"value" : {
-			"nationality" : "Georgia",
-			"length" : 14,
-			"min" : 1.990778936769029,
-			"max" : 2.7696307048280797,
-			"avg" : 2.4320295824417713
-		}
-	},
-	{
-		"_id" : "Argentina",
-		"value" : {
-			"nationality" : "Argentina",
-			"length" : 147,
-			"min" : 1.758733455568425,
-			"max" : 3.4132240631856043,
-			"avg" : 2.5676814042428506
-		}
-	},
-	{
-		"_id" : "Czech Republic",
-		"value" : {
-			"nationality" : "Czech Republic",
-			"length" : 161,
-			"min" : 1.856386639676774,
-			"max" : 3.31519013359832,
-			"avg" : 2.5234554286525275
-		}
-	},
-	{
-		"_id" : "Kenya",
-		"value" : {
-			"nationality" : "Kenya",
-			"length" : 21,
-			"min" : 2.1963094173998594,
-			"max" : 3.241597300136891,
-			"avg" : 2.584497767923738
-		}
-	},
-	{
-		"_id" : "Zambia",
-		"value" : {
-			"nationality" : "Zambia",
-			"length" : 8,
-			"min" : 2.0338719513529027,
-			"max" : 3.1448646035048586,
-			"avg" : 2.5857875377943595
-		}
-	},
-	{
-		"_id" : "New Caledonia",
-		"value" : {
-			"nationality" : "New Caledonia",
-			"length" : 2,
-			"min" : 2.407180767559938,
-			"max" : 2.6939955901091706,
-			"avg" : 2.5505881788345546
-		}
-	},
-	{
-		"_id" : "Cape Verde",
-		"value" : {
-			"nationality" : "Cape Verde",
-			"length" : 6,
-			"min" : 1.920724222151505,
-			"max" : 3.504527266278727,
-			"avg" : 2.533466174988547
-		}
-	},
-	{
-		"_id" : "South Sudan",
-		"value" : {
-			"nationality" : "South Sudan",
-			"length" : 1,
-			"min" : 2.5958795187276635,
-			"max" : 2.5958795187276635,
-			"avg" : 2.5958795187276635
-		}
-	},
-	{
-		"_id" : "Iceland",
-		"value" : {
-			"nationality" : "Iceland",
-			"length" : 6,
-			"min" : 2.2674667319714628,
-			"max" : 3.0147382261951026,
-			"avg" : 2.5590950932535756
-		}
-	},
-	{
-		"_id" : "Montenegro",
-		"value" : {
-			"nationality" : "Montenegro",
-			"length" : 9,
-			"min" : 2.0736590894434217,
-			"max" : 2.952690966743399,
-			"avg" : 2.4006170716842257
-		}
-	},
-	{
-		"_id" : "Guinea",
-		"value" : {
-			"nationality" : "Guinea",
-			"length" : 8,
-			"min" : 2.0460478773371795,
-			"max" : 3.4462128538412364,
-			"avg" : 2.7914221596798203
-		}
-	},
-	{
-		"_id" : "Guam",
-		"value" : {
-			"nationality" : "Guam",
-			"length" : 3,
-			"min" : 2.0673090321864906,
-			"max" : 2.4012673635721278,
-			"avg" : 2.2450193658121718
-		}
-	},
-	{
-		"_id" : "Vanuatu",
-		"value" : {
-			"nationality" : "Vanuatu",
-			"length" : 3,
-			"min" : 2.304931152277455,
-			"max" : 2.7207841480236588,
-			"avg" : 2.4697548912916893
-		}
-	},
-	{
-		"_id" : "Mauritius",
-		"value" : {
-			"nationality" : "Mauritius",
-			"length" : 13,
-			"min" : 1.9225308641975307,
-			"max" : 3.8863421084463057,
-			"avg" : 2.549360782117101
-		}
-	},
-	{
-		"_id" : "Tajikistan",
-		"value" : {
-			"nationality" : "Tajikistan",
-			"length" : 11,
-			"min" : 1.9990278828313506,
-			"max" : 3.113265060582113,
-			"avg" : 2.4961843320223545
-		}
-	},
-	{
-		"_id" : "Madagascar",
-		"value" : {
-			"nationality" : "Madagascar",
-			"length" : 30,
-			"min" : 1.7556666479697989,
-			"max" : 3.0189583737327377,
-			"avg" : 2.478315354739493
-		}
-	},
-	{
-		"_id" : "Kiribati",
-		"value" : {
-			"nationality" : "Kiribati",
-			"length" : 1,
-			"min" : 2.3104683336146246,
-			"max" : 2.3104683336146246,
-			"avg" : 2.3104683336146246
-		}
-	},
-	{
-		"_id" : "Dominican Republic",
-		"value" : {
-			"nationality" : "Dominican Republic",
-			"length" : 28,
-			"min" : 1.8012871199569411,
-			"max" : 3.0325493507337664,
-			"avg" : 2.415506178055435
-		}
-	},
-	{
-		"_id" : "Wallis and Futuna",
-		"value" : {
-			"nationality" : "Wallis and Futuna",
-			"length" : 2,
-			"min" : 2.433390757821489,
-			"max" : 2.843117093855067,
-			"avg" : 2.638253925838278
-		}
-	},
-	{
-		"_id" : "Palau",
-		"value" : {
-			"nationality" : "Palau",
-			"length" : 2,
-			"min" : 2.923870542868914,
-			"max" : 2.9999359959047864,
-			"avg" : 2.96190326938685
-		}
-	},
-	{
-		"_id" : "Suriname",
-		"value" : {
-			"nationality" : "Suriname",
-			"length" : 1,
-			"min" : 3.038931494743512,
-			"max" : 3.038931494743512,
-			"avg" : 3.038931494743512
-		}
-	},
-	{
-		"_id" : "Costa Rica",
-		"value" : {
-			"nationality" : "Costa Rica",
-			"length" : 16,
-			"min" : 2.049401094221192,
-			"max" : 2.8898569613792326,
-			"avg" : 2.4650437337200204
-		}
-	},
-	{
-		"_id" : "Ivory Coast",
-		"value" : {
-			"nationality" : "Ivory Coast",
-			"length" : 15,
-			"min" : 2.049720267946944,
-			"max" : 3.5265658582249126,
-			"avg" : 2.6739162218304364
-		}
-	},
-	{
-		"_id" : "Israel",
-		"value" : {
-			"nationality" : "Israel",
-			"length" : 22,
-			"min" : 2.1291597916349954,
-			"max" : 3.014483568029636,
-			"avg" : 2.5451689665589674
-		}
-	},
-	{
-		"_id" : "Barbados",
-		"value" : {
-			"nationality" : "Barbados",
-			"length" : 1,
-			"min" : 2.1343242644513323,
-			"max" : 2.1343242644513323,
-			"avg" : 2.1343242644513323
-		}
-	},
-	{
-		"_id" : "Nigeria",
-		"value" : {
-			"nationality" : "Nigeria",
-			"length" : 87,
-			"min" : 1.6860335772659223,
-			"max" : 3.6162778871974366,
-			"avg" : 2.4802388203011216
-		}
-	},
-	{
-		"_id" : "Canada",
-		"value" : {
-			"nationality" : "Canada",
-			"length" : 123,
-			"min" : 1.83379918200126,
-			"max" : 3.3613037538372215,
-			"avg" : 2.552290447489948
-		}
-	},
-	{
-		"_id" : "Denmark",
-		"value" : {
-			"nationality" : "Denmark",
-			"length" : 9,
-			"min" : 2.108473436367003,
-			"max" : 2.78248605984213,
-			"avg" : 2.3570666794473016
-		}
-	},
-	{
-		"_id" : "Indonesia",
-		"value" : {
-			"nationality" : "Indonesia",
-			"length" : 1060,
-			"min" : 1.4752916025545577,
-			"max" : 4.52254888114332,
-			"avg" : 2.549676266698911
-		}
-	},
-	{
-		"_id" : "Taiwan",
-		"value" : {
-			"nationality" : "Taiwan",
-			"length" : 5,
-			"min" : 2.0359929764833224,
-			"max" : 3.117139169587829,
-			"avg" : 2.6610153474174836
-		}
-	},
-	{
-		"_id" : "Norway",
-		"value" : {
-			"nationality" : "Norway",
-			"length" : 38,
-			"min" : 1.9602504292612466,
-			"max" : 3.516718168618179,
-			"avg" : 2.7012053304746866
-		}
-	},
-	{
-		"_id" : "Tunisia",
-		"value" : {
-			"nationality" : "Tunisia",
-			"length" : 29,
-			"min" : 1.8605190127554883,
-			"max" : 3.0378661433346,
-			"avg" : 2.419010019385633
-		}
-	},
-	{
-		"_id" : "Hong Kong",
-		"value" : {
-			"nationality" : "Hong Kong",
-			"length" : 1,
-			"min" : 2.728283221221082,
-			"max" : 2.728283221221082,
-			"avg" : 2.728283221221082
-		}
-	},
-	{
-		"_id" : "Ukraine",
-		"value" : {
-			"nationality" : "Ukraine",
-			"length" : 164,
-			"min" : 1.7021559565054984,
-			"max" : 3.6842227563723635,
-			"avg" : 2.520615536401978
-		}
-	},
-	{
-		"_id" : "Lebanon",
-		"value" : {
-			"nationality" : "Lebanon",
-			"length" : 6,
-			"min" : 2.2696782965005373,
-			"max" : 3.2444431072334527,
-			"avg" : 2.750900155800487
-		}
-	},
-	{
-		"_id" : "Kuwait",
-		"value" : {
-			"nationality" : "Kuwait",
-			"length" : 7,
-			"min" : 2.243979747671335,
-			"max" : 2.7184318738806668,
-			"avg" : 2.5231665011916378
-		}
-	},
-	{
-		"_id" : "Bulgaria",
-		"value" : {
-			"nationality" : "Bulgaria",
-			"length" : 34,
-			"min" : 1.841576363318103,
-			"max" : 3.259850336330581,
-			"avg" : 2.4584068264017684
-		}
-	},
-	{
-		"_id" : "Germany",
-		"value" : {
-			"nationality" : "Germany",
-			"length" : 30,
-			"min" : 1.981281881812401,
-			"max" : 3.2563931924521765,
-			"avg" : 2.4621106995155952
-		}
-	},
-	{
-		"_id" : "Qatar",
-		"value" : {
-			"nationality" : "Qatar",
-			"length" : 2,
-			"min" : 2.1901674383997087,
-			"max" : 2.9599291029472683,
-			"avg" : 2.5750482706734887
-		}
-	},
-	{
-		"_id" : "Western Sahara",
-		"value" : {
-			"nationality" : "Western Sahara",
-			"length" : 1,
-			"min" : 2.275109226188259,
-			"max" : 2.275109226188259,
-			"avg" : 2.275109226188259
-		}
-	},
-	{
-		"_id" : "Oman",
-		"value" : {
-			"nationality" : "Oman",
-			"length" : 3,
-			"min" : 2.359950905408423,
-			"max" : 2.708402216179085,
-			"avg" : 2.5688221135833005
-		}
-	},
-	{
-		"_id" : "United Arab Emirates",
-		"value" : {
-			"nationality" : "United Arab Emirates",
-			"length" : 2,
-			"min" : 2.33909786086918,
-			"max" : 2.9753071854779467,
-			"avg" : 2.6572025231735634
-		}
-	},
-	{
-		"_id" : "Puerto Rico",
-		"value" : {
-			"nationality" : "Puerto Rico",
-			"length" : 3,
-			"min" : 2.2624807178343223,
-			"max" : 2.7283415282531926,
-			"avg" : 2.5262349688052415
-		}
-	},
-	{
-		"_id" : "El Salvador",
-		"value" : {
-			"nationality" : "El Salvador",
-			"length" : 16,
-			"min" : 2.1925828160659018,
-			"max" : 3.3562995764845316,
-			"avg" : 2.534836100144279
-		}
-	},
-	{
-		"_id" : "South Korea",
-		"value" : {
-			"nationality" : "South Korea",
-			"length" : 41,
-			"min" : 1.948185862847715,
-			"max" : 3.1353844450262813,
-			"avg" : 2.4681886948748932
-		}
-	},
-	{
-		"_id" : "Guatemala",
-		"value" : {
-			"nationality" : "Guatemala",
-			"length" : 36,
-			"min" : 1.9619608992088944,
-			"max" : 3.213075314700059,
-			"avg" : 2.5742899593543553
-		}
-	},
-	{
-		"_id" : "Angola",
-		"value" : {
-			"nationality" : "Angola",
-			"length" : 8,
-			"min" : 1.836240074409329,
-			"max" : 3.167480491405165,
-			"avg" : 2.417967562103932
-		}
-	},
-	{
-		"_id" : "Slovenia",
-		"value" : {
-			"nationality" : "Slovenia",
-			"length" : 38,
-			"min" : 1.7370385779694155,
-			"max" : 3.2661098753994495,
-			"avg" : 2.520987966125675
-		}
-	},
-	{
-		"_id" : "Kosovo",
-		"value" : {
-			"nationality" : "Kosovo",
-			"length" : 6,
-			"min" : 1.9254012570630332,
-			"max" : 2.9624326587170815,
-			"avg" : 2.4130951832403817
-		}
-	},
-	{
-		"_id" : "Croatia",
-		"value" : {
-			"nationality" : "Croatia",
-			"length" : 61,
-			"min" : 1.879145933816665,
-			"max" : 3.854454850434303,
-			"avg" : 2.4859825049169966
-		}
-	},
-	{
-		"_id" : "China",
-		"value" : {
-			"nationality" : "China",
-			"length" : 1827,
-			"min" : 1.545756779740527,
-			"max" : 4.236228470295767,
-			"avg" : 2.5581559894071484
-		}
-	},
-	{
-		"_id" : "Malta",
-		"value" : {
-			"nationality" : "Malta",
-			"length" : 14,
-			"min" : 2.21203842493067,
-			"max" : 3.6019789085882365,
-			"avg" : 2.616958044897124
-		}
-	},
-	{
-		"_id" : "Sierra Leone",
-		"value" : {
-			"nationality" : "Sierra Leone",
-			"length" : 10,
-			"min" : 1.9498876420531635,
-			"max" : 3.344826945468169,
-			"avg" : 2.5113042227498763
-		}
-	},
-	{
-		"_id" : "Egypt",
-		"value" : {
-			"nationality" : "Egypt",
-			"length" : 35,
-			"min" : 1.7650429873238074,
-			"max" : 3.203372250044894,
-			"avg" : 2.4279172249085588
-		}
-	},
-	{
-		"_id" : "Mozambique",
-		"value" : {
-			"nationality" : "Mozambique",
-			"length" : 6,
-			"min" : 2.2800359685650267,
-			"max" : 2.944789535394624,
-			"avg" : 2.556294360884168
-		}
-	},
-	{
-		"_id" : "Cameroon",
-		"value" : {
-			"nationality" : "Cameroon",
-			"length" : 20,
-			"min" : 1.968164695338018,
-			"max" : 3.317153919692311,
-			"avg" : 2.4636695335422303
-		}
-	},
-	{
-		"_id" : "Switzerland",
-		"value" : {
-			"nationality" : "Switzerland",
-			"length" : 4,
-			"min" : 2.0192102704387427,
-			"max" : 3.1153535521833073,
-			"avg" : 2.570946937867775
-		}
-	},
-	{
-		"_id" : "Latvia",
-		"value" : {
-			"nationality" : "Latvia",
-			"length" : 14,
-			"min" : 1.843553598869306,
-			"max" : 3.2887310535620524,
-			"avg" : 2.663477117739702
-		}
-	},
-	{
-		"_id" : "North Korea",
-		"value" : {
-			"nationality" : "North Korea",
-			"length" : 13,
-			"min" : 2.0924212172010193,
-			"max" : 3.0614290364070977,
-			"avg" : 2.6205146023322587
-		}
-	},
-	{
-		"_id" : "Uzbekistan",
-		"value" : {
-			"nationality" : "Uzbekistan",
-			"length" : 24,
-			"min" : 1.9782197771015648,
-			"max" : 3.2304608512196578,
-			"avg" : 2.589508672058651
-		}
-	},
-	{
-		"_id" : "Sweden",
-		"value" : {
-			"nationality" : "Sweden",
-			"length" : 260,
-			"min" : 1.8101186860208869,
-			"max" : 4.00885905616931,
-			"avg" : 2.575926441250587
-		}
-	},
-	{
-		"_id" : "Netherlands",
-		"value" : {
-			"nationality" : "Netherlands",
-			"length" : 33,
-			"min" : 1.9375149151810973,
-			"max" : 3.4913790701413396,
-			"avg" : 2.602467655953886
-		}
-	},
-	{
-		"_id" : "Cyprus",
-		"value" : {
-			"nationality" : "Cyprus",
-			"length" : 5,
-			"min" : 2.219514173678794,
-			"max" : 2.982548972839575,
-			"avg" : 2.5193792192011824
-		}
-	},
-	{
-		"_id" : "Papua New Guinea",
-		"value" : {
-			"nationality" : "Papua New Guinea",
-			"length" : 4,
-			"min" : 1.9859417039821556,
-			"max" : 2.6903589650913546,
-			"avg" : 2.4213264087002067
-		}
-	},
-	{
-		"_id" : "Myanmar",
-		"value" : {
-			"nationality" : "Myanmar",
-			"length" : 22,
-			"min" : 2.099743660839639,
-			"max" : 3.1448459395139454,
-			"avg" : 2.5964386191009896
-		}
-	},
-	{
-		"_id" : "Belarus",
-		"value" : {
-			"nationality" : "Belarus",
-			"length" : 43,
-			"min" : 1.7862911074560455,
-			"max" : 3.393864732017481,
-			"avg" : 2.5469679075687006
-		}
-	},
-	{
-		"_id" : "Syria",
-		"value" : {
-			"nationality" : "Syria",
-			"length" : 38,
-			"min" : 1.8668899303500157,
-			"max" : 3.6401748935686205,
-			"avg" : 2.537924156700658
-		}
-	},
-	{
-		"_id" : "Togo",
-		"value" : {
-			"nationality" : "Togo",
-			"length" : 5,
-			"min" : 2.148308917637091,
-			"max" : 2.455999969363162,
-			"avg" : 2.3268539811569156
-		}
-	},
-	{
-		"_id" : "Eritrea",
-		"value" : {
-			"nationality" : "Eritrea",
-			"length" : 3,
-			"min" : 2.450268874944324,
-			"max" : 2.8706187680256323,
-			"avg" : 2.6186666767587794
-		}
-	},
-	{
-		"_id" : "Bangladesh",
-		"value" : {
-			"nationality" : "Bangladesh",
-			"length" : 18,
-			"min" : 1.9809821191475774,
-			"max" : 3.406297114172177,
-			"avg" : 2.6693456288940407
-		}
-	},
-	{
-		"_id" : "Macedonia",
-		"value" : {
-			"nationality" : "Macedonia",
-			"length" : 30,
-			"min" : 2.04950521872469,
-			"max" : 3.2525694177860536,
-			"avg" : 2.516954316733825
-		}
-	},
-	{
-		"_id" : "Ecuador",
-		"value" : {
-			"nationality" : "Ecuador",
-			"length" : 15,
-			"min" : 1.9837789435759385,
-			"max" : 3.154075759540046,
-			"avg" : 2.566255028757021
-		}
-	},
-	{
-		"_id" : "Liberia",
-		"value" : {
-			"nationality" : "Liberia",
-			"length" : 6,
-			"min" : 2.2648192657509565,
-			"max" : 2.9633309101288834,
-			"avg" : 2.5901546538832037
-		}
-	},
-	{
-		"_id" : "Marshall Islands",
-		"value" : {
-			"nationality" : "Marshall Islands",
-			"length" : 3,
-			"min" : 2.2403515045781823,
-			"max" : 2.689988056197374,
-			"avg" : 2.4436222438810695
-		}
-	},
-	{
-		"_id" : "Central African Republic",
-		"value" : {
-			"nationality" : "Central African Republic",
-			"length" : 6,
-			"min" : 1.9614899401982282,
-			"max" : 2.895456123722056,
-			"avg" : 2.3916787330266964
-		}
-	},
-	{
-		"_id" : "Guadeloupe",
-		"value" : {
-			"nationality" : "Guadeloupe",
-			"length" : 1,
-			"min" : 2.2066287052482925,
-			"max" : 2.2066287052482925,
-			"avg" : 2.2066287052482925
-		}
-	},
-	{
-		"_id" : "Austria",
-		"value" : {
-			"nationality" : "Austria",
-			"length" : 7,
-			"min" : 2.301532709975852,
-			"max" : 3.7259975846114166,
-			"avg" : 2.7938831779729516
-		}
-	},
-	{
-		"_id" : "New Zealand",
-		"value" : {
-			"nationality" : "New Zealand",
-			"length" : 16,
-			"min" : 2.00150377965085,
-			"max" : 3.3708938690778774,
-			"avg" : 2.5359794144919383
-		}
-	},
-	{
-		"_id" : "Mongolia",
-		"value" : {
-			"nationality" : "Mongolia",
-			"length" : 42,
-			"min" : 1.9123348100503088,
-			"max" : 3.147600262984878,
-			"avg" : 2.4028538003044133
-		}
-	},
-	{
-		"_id" : "Azerbaijan",
-		"value" : {
-			"nationality" : "Azerbaijan",
-			"length" : 32,
-			"min" : 1.8770569815679923,
-			"max" : 3.6933482172005756,
-			"avg" : 2.5953521178074688
-		}
-	},
-	{
-		"_id" : "Tanzania",
-		"value" : {
-			"nationality" : "Tanzania",
-			"length" : 31,
-			"min" : 2.0050294593784717,
-			"max" : 3.49992957297564,
-			"avg" : 2.6252300148888184
-		}
-	},
-	{
-		"_id" : "Greece",
-		"value" : {
-			"nationality" : "Greece",
-			"length" : 131,
-			"min" : 1.9126762812266065,
-			"max" : 4.152589808442401,
-			"avg" : 2.5757728284442716
-		}
-	},
-	{
-		"_id" : "Northern Mariana Islands",
-		"value" : {
-			"nationality" : "Northern Mariana Islands",
-			"length" : 1,
-			"min" : 2.591232061098385,
-			"max" : 2.591232061098385,
-			"avg" : 2.591232061098385
-		}
-	},
-	{
-		"_id" : "Australia",
-		"value" : {
-			"nationality" : "Australia",
-			"length" : 3,
-			"min" : 2.065310909810227,
-			"max" : 2.982455599343255,
-			"avg" : 2.519504715831007
-		}
-	},
-	{
-		"_id" : "France",
-		"value" : {
-			"nationality" : "France",
-			"length" : 301,
-			"min" : 1.76805182946428,
-			"max" : 4.068709814176658,
-			"avg" : 2.52178810173858
-		}
-	},
-	{
-		"_id" : "Sri Lanka",
-		"value" : {
-			"nationality" : "Sri Lanka",
-			"length" : 9,
-			"min" : 2.074442158168758,
-			"max" : 2.8603619664191675,
-			"avg" : 2.4576523965721475
-		}
-	},
-	{
-		"_id" : "Seychelles",
-		"value" : {
-			"nationality" : "Seychelles",
-			"length" : 1,
-			"min" : 2.571055175513673,
-			"max" : 2.571055175513673,
-			"avg" : 2.571055175513673
+			"avg" : 2.6736439032858965,
+			"avgBmi" : 2.6736439032858965
 		}
 	},
 	{
@@ -1760,77 +21,41 @@ MongoDB server version: 4.4.5
 			"length" : 4,
 			"min" : 2.0483583148077007,
 			"max" : 2.5248866566177663,
-			"avg" : 2.3307344877130705
+			"avg" : 2.3307344877130705,
+			"avgBmi" : 2.3307344877130705
 		}
 	},
 	{
-		"_id" : "Tonga",
+		"_id" : "Bulgaria",
 		"value" : {
-			"nationality" : "Tonga",
-			"length" : 1,
-			"min" : 2.38293086776095,
-			"max" : 2.38293086776095,
-			"avg" : 2.38293086776095
+			"nationality" : "Bulgaria",
+			"length" : 34,
+			"min" : 1.841576363318103,
+			"max" : 3.259850336330581,
+			"avg" : 2.4584068264017684,
+			"avgBmi" : 2.4584068264017684
 		}
 	},
 	{
-		"_id" : "Republic of the Congo",
+		"_id" : "Papua New Guinea",
 		"value" : {
-			"nationality" : "Republic of the Congo",
-			"length" : 3,
-			"min" : 1.7661407823502013,
-			"max" : 3.040321009942462,
-			"avg" : 2.5559867696319754
+			"nationality" : "Papua New Guinea",
+			"length" : 4,
+			"min" : 1.9859417039821556,
+			"max" : 2.6903589650913546,
+			"avg" : 2.4213264087002067,
+			"avgBmi" : 2.4213264087002067
 		}
 	},
 	{
-		"_id" : "Turkey",
+		"_id" : "United Arab Emirates",
 		"value" : {
-			"nationality" : "Turkey",
-			"length" : 3,
-			"min" : 2.271234002430647,
-			"max" : 2.3218818230827427,
-			"avg" : 2.299159106196313
-		}
-	},
-	{
-		"_id" : "Saint Lucia",
-		"value" : {
-			"nationality" : "Saint Lucia",
-			"length" : 3,
-			"min" : 2.0263359356035604,
-			"max" : 2.757036153167093,
-			"avg" : 2.300790051320357
-		}
-	},
-	{
-		"_id" : "Iran",
-		"value" : {
-			"nationality" : "Iran",
-			"length" : 37,
-			"min" : 1.8237996217377763,
-			"max" : 3.7980208563155085,
-			"avg" : 2.585274446746476
-		}
-	},
-	{
-		"_id" : "Chad",
-		"value" : {
-			"nationality" : "Chad",
-			"length" : 5,
-			"min" : 1.93797121228698,
-			"max" : 3.2148676619544636,
-			"avg" : 2.590576302097001
-		}
-	},
-	{
-		"_id" : "Burkina Faso",
-		"value" : {
-			"nationality" : "Burkina Faso",
-			"length" : 10,
-			"min" : 1.9874924416260062,
-			"max" : 3.984736448162323,
-			"avg" : 2.7581473331497786
+			"nationality" : "United Arab Emirates",
+			"length" : 2,
+			"min" : 2.33909786086918,
+			"max" : 2.9753071854779467,
+			"avg" : 2.6572025231735634,
+			"avgBmi" : 2.6572025231735634
 		}
 	},
 	{
@@ -1840,57 +65,85 @@ MongoDB server version: 4.4.5
 			"length" : 17,
 			"min" : 1.862665699542922,
 			"max" : 3.128284127929142,
-			"avg" : 2.52244485627598
+			"avg" : 2.52244485627598,
+			"avgBmi" : 2.52244485627598
 		}
 	},
 	{
-		"_id" : "Pakistan",
+		"_id" : "Syria",
 		"value" : {
-			"nationality" : "Pakistan",
-			"length" : 48,
-			"min" : 1.7507302336811124,
-			"max" : 3.5541447495735263,
-			"avg" : 2.502816349688192
-		}
-	},
-	{
-		"_id" : "Paraguay",
-		"value" : {
-			"nationality" : "Paraguay",
-			"length" : 17,
-			"min" : 2.1194188847738653,
-			"max" : 3.2977747972845006,
-			"avg" : 2.5118908017345474
-		}
-	},
-	{
-		"_id" : "Cambodia",
-		"value" : {
-			"nationality" : "Cambodia",
-			"length" : 6,
-			"min" : 2.1873859826171214,
-			"max" : 3.3328500351027124,
-			"avg" : 2.7383971278390953
-		}
-	},
-	{
-		"_id" : "Belize",
-		"value" : {
-			"nationality" : "Belize",
-			"length" : 4,
-			"min" : 1.8424047224128546,
-			"max" : 2.622341661344843,
-			"avg" : 2.3220039319907464
-		}
-	},
-	{
-		"_id" : "Honduras",
-		"value" : {
-			"nationality" : "Honduras",
+			"nationality" : "Syria",
 			"length" : 38,
-			"min" : 1.8483295476526516,
-			"max" : 3.522066445474855,
-			"avg" : 2.5480342743338036
+			"min" : 1.8668899303500157,
+			"max" : 3.6401748935686205,
+			"avg" : 2.537924156700658,
+			"avgBmi" : 2.537924156700658
+		}
+	},
+	{
+		"_id" : "Belarus",
+		"value" : {
+			"nationality" : "Belarus",
+			"length" : 43,
+			"min" : 1.7862911074560455,
+			"max" : 3.393864732017481,
+			"avg" : 2.5469679075687006,
+			"avgBmi" : 2.5469679075687006
+		}
+	},
+	{
+		"_id" : "Bangladesh",
+		"value" : {
+			"nationality" : "Bangladesh",
+			"length" : 18,
+			"min" : 1.9809821191475774,
+			"max" : 3.406297114172177,
+			"avg" : 2.6693456288940407,
+			"avgBmi" : 2.6693456288940407
+		}
+	},
+	{
+		"_id" : "Spain",
+		"value" : {
+			"nationality" : "Spain",
+			"length" : 15,
+			"min" : 2.1718839959357132,
+			"max" : 3.4935660206343093,
+			"avg" : 2.6172174392961134,
+			"avgBmi" : 2.6172174392961134
+		}
+	},
+	{
+		"_id" : "New Zealand",
+		"value" : {
+			"nationality" : "New Zealand",
+			"length" : 16,
+			"min" : 2.00150377965085,
+			"max" : 3.3708938690778774,
+			"avg" : 2.5359794144919383,
+			"avgBmi" : 2.5359794144919383
+		}
+	},
+	{
+		"_id" : "Martinique",
+		"value" : {
+			"nationality" : "Martinique",
+			"length" : 1,
+			"min" : 2.4025383631333916,
+			"max" : 2.4025383631333916,
+			"avg" : 2.4025383631333916,
+			"avgBmi" : 2.4025383631333916
+		}
+	},
+	{
+		"_id" : "Guadeloupe",
+		"value" : {
+			"nationality" : "Guadeloupe",
+			"length" : 1,
+			"min" : 2.2066287052482925,
+			"max" : 2.2066287052482925,
+			"avg" : 2.2066287052482925,
+			"avgBmi" : 2.2066287052482925
 		}
 	},
 	{
@@ -1900,37 +153,8 @@ MongoDB server version: 4.4.5
 			"length" : 5,
 			"min" : 2.224366536017229,
 			"max" : 2.6596494551398333,
-			"avg" : 2.4994816322414777
-		}
-	},
-	{
-		"_id" : "Lesotho",
-		"value" : {
-			"nationality" : "Lesotho",
-			"length" : 3,
-			"min" : 1.9804653958825413,
-			"max" : 3.01644603288905,
-			"avg" : 2.5359896980561865
-		}
-	},
-	{
-		"_id" : "Nauru",
-		"value" : {
-			"nationality" : "Nauru",
-			"length" : 1,
-			"min" : 2.291236113053845,
-			"max" : 2.291236113053845,
-			"avg" : 2.291236113053845
-		}
-	},
-	{
-		"_id" : "Cuba",
-		"value" : {
-			"nationality" : "Cuba",
-			"length" : 34,
-			"min" : 1.8489462979361966,
-			"max" : 3.5424098295679753,
-			"avg" : 2.637919135685751
+			"avg" : 2.4994816322414777,
+			"avgBmi" : 2.4994816322414777
 		}
 	},
 	{
@@ -1940,7 +164,261 @@ MongoDB server version: 4.4.5
 			"length" : 5,
 			"min" : 1.8728903481758292,
 			"max" : 3.9165060590104357,
-			"avg" : 2.642177569784529
+			"avg" : 2.642177569784529,
+			"avgBmi" : 2.642177569784529
+		}
+	},
+	{
+		"_id" : "Egypt",
+		"value" : {
+			"nationality" : "Egypt",
+			"length" : 35,
+			"min" : 1.7650429873238074,
+			"max" : 3.203372250044894,
+			"avg" : 2.4279172249085588,
+			"avgBmi" : 2.4279172249085588
+		}
+	},
+	{
+		"_id" : "Kyrgyzstan",
+		"value" : {
+			"nationality" : "Kyrgyzstan",
+			"length" : 16,
+			"min" : 1.6846474930530864,
+			"max" : 3.4055769789718404,
+			"avg" : 2.379456317353873,
+			"avgBmi" : 2.379456317353873
+		}
+	},
+	{
+		"_id" : "Lithuania",
+		"value" : {
+			"nationality" : "Lithuania",
+			"length" : 19,
+			"min" : 1.9688339749666333,
+			"max" : 3.0887830005968033,
+			"avg" : 2.4414208345235187,
+			"avgBmi" : 2.4414208345235187
+		}
+	},
+	{
+		"_id" : "Croatia",
+		"value" : {
+			"nationality" : "Croatia",
+			"length" : 61,
+			"min" : 1.879145933816665,
+			"max" : 3.854454850434303,
+			"avg" : 2.4859825049169966,
+			"avgBmi" : 2.4859825049169966
+		}
+	},
+	{
+		"_id" : "Tanzania",
+		"value" : {
+			"nationality" : "Tanzania",
+			"length" : 31,
+			"min" : 2.0050294593784717,
+			"max" : 3.49992957297564,
+			"avg" : 2.6252300148888184,
+			"avgBmi" : 2.6252300148888184
+		}
+	},
+	{
+		"_id" : "Switzerland",
+		"value" : {
+			"nationality" : "Switzerland",
+			"length" : 4,
+			"min" : 2.0192102704387427,
+			"max" : 3.1153535521833073,
+			"avg" : 2.570946937867775,
+			"avgBmi" : 2.570946937867775
+		}
+	},
+	{
+		"_id" : "France",
+		"value" : {
+			"nationality" : "France",
+			"length" : 301,
+			"min" : 1.76805182946428,
+			"max" : 4.068709814176658,
+			"avg" : 2.52178810173858,
+			"avgBmi" : 2.52178810173858
+		}
+	},
+	{
+		"_id" : "Malaysia",
+		"value" : {
+			"nationality" : "Malaysia",
+			"length" : 41,
+			"min" : 1.854461856797744,
+			"max" : 3.653428355033911,
+			"avg" : 2.5612388990594757,
+			"avgBmi" : 2.5612388990594757
+		}
+	},
+	{
+		"_id" : "Austria",
+		"value" : {
+			"nationality" : "Austria",
+			"length" : 7,
+			"min" : 2.301532709975852,
+			"max" : 3.7259975846114166,
+			"avg" : 2.7938831779729516,
+			"avgBmi" : 2.7938831779729516
+		}
+	},
+	{
+		"_id" : "Cambodia",
+		"value" : {
+			"nationality" : "Cambodia",
+			"length" : 6,
+			"min" : 2.1873859826171214,
+			"max" : 3.3328500351027124,
+			"avg" : 2.7383971278390953,
+			"avgBmi" : 2.7383971278390953
+		}
+	},
+	{
+		"_id" : "Vietnam",
+		"value" : {
+			"nationality" : "Vietnam",
+			"length" : 83,
+			"min" : 1.6588074623788909,
+			"max" : 3.2970728944432377,
+			"avg" : 2.504102236093673,
+			"avgBmi" : 2.504102236093673
+		}
+	},
+	{
+		"_id" : "Iran",
+		"value" : {
+			"nationality" : "Iran",
+			"length" : 37,
+			"min" : 1.8237996217377763,
+			"max" : 3.7980208563155085,
+			"avg" : 2.585274446746476,
+			"avgBmi" : 2.585274446746476
+		}
+	},
+	{
+		"_id" : "Pakistan",
+		"value" : {
+			"nationality" : "Pakistan",
+			"length" : 48,
+			"min" : 1.7507302336811124,
+			"max" : 3.5541447495735263,
+			"avg" : 2.502816349688192,
+			"avgBmi" : 2.502816349688192
+		}
+	},
+	{
+		"_id" : "Saint Lucia",
+		"value" : {
+			"nationality" : "Saint Lucia",
+			"length" : 3,
+			"min" : 2.0263359356035604,
+			"max" : 2.757036153167093,
+			"avg" : 2.300790051320357,
+			"avgBmi" : 2.300790051320357
+		}
+	},
+	{
+		"_id" : "Laos",
+		"value" : {
+			"nationality" : "Laos",
+			"length" : 7,
+			"min" : 2.0414405907869932,
+			"max" : 2.8470547935007056,
+			"avg" : 2.4706560500173143,
+			"avgBmi" : 2.4706560500173143
+		}
+	},
+	{
+		"_id" : "Burkina Faso",
+		"value" : {
+			"nationality" : "Burkina Faso",
+			"length" : 10,
+			"min" : 1.9874924416260062,
+			"max" : 3.984736448162323,
+			"avg" : 2.7581473331497786,
+			"avgBmi" : 2.7581473331497786
+		}
+	},
+	{
+		"_id" : "Algeria",
+		"value" : {
+			"nationality" : "Algeria",
+			"length" : 1,
+			"min" : 2.859446385380274,
+			"max" : 2.859446385380274,
+			"avg" : 2.859446385380274,
+			"avgBmi" : 2.859446385380274
+		}
+	},
+	{
+		"_id" : "Kiribati",
+		"value" : {
+			"nationality" : "Kiribati",
+			"length" : 1,
+			"min" : 2.3104683336146246,
+			"max" : 2.3104683336146246,
+			"avg" : 2.3104683336146246,
+			"avgBmi" : 2.3104683336146246
+		}
+	},
+	{
+		"_id" : "Slovakia",
+		"value" : {
+			"nationality" : "Slovakia",
+			"length" : 1,
+			"min" : 2.1338818810983464,
+			"max" : 2.1338818810983464,
+			"avg" : 2.1338818810983464,
+			"avgBmi" : 2.1338818810983464
+		}
+	},
+	{
+		"_id" : "Lesotho",
+		"value" : {
+			"nationality" : "Lesotho",
+			"length" : 3,
+			"min" : 1.9804653958825413,
+			"max" : 3.01644603288905,
+			"avg" : 2.5359896980561865,
+			"avgBmi" : 2.5359896980561865
+		}
+	},
+	{
+		"_id" : "Nauru",
+		"value" : {
+			"nationality" : "Nauru",
+			"length" : 1,
+			"min" : 2.291236113053845,
+			"max" : 2.291236113053845,
+			"avg" : 2.291236113053845,
+			"avgBmi" : 2.291236113053845
+		}
+	},
+	{
+		"_id" : "Poland",
+		"value" : {
+			"nationality" : "Poland",
+			"length" : 324,
+			"min" : 1.8006317259010836,
+			"max" : 3.976770609771494,
+			"avg" : 2.533212395415839,
+			"avgBmi" : 2.533212395415839
+		}
+	},
+	{
+		"_id" : "Mongolia",
+		"value" : {
+			"nationality" : "Mongolia",
+			"length" : 42,
+			"min" : 1.9123348100503088,
+			"max" : 3.147600262984878,
+			"avg" : 2.4028538003044133,
+			"avgBmi" : 2.4028538003044133
 		}
 	},
 	{
@@ -1950,7 +428,30 @@ MongoDB server version: 4.4.5
 			"length" : 149,
 			"min" : 1.8181717342474402,
 			"max" : 3.5590560182726434,
-			"avg" : 2.5689714200817675
+			"avg" : 2.5689714200817675,
+			"avgBmi" : 2.5689714200817675
+		}
+	},
+	{
+		"_id" : "Tonga",
+		"value" : {
+			"nationality" : "Tonga",
+			"length" : 1,
+			"min" : 2.38293086776095,
+			"max" : 2.38293086776095,
+			"avg" : 2.38293086776095,
+			"avgBmi" : 2.38293086776095
+		}
+	},
+	{
+		"_id" : "Greece",
+		"value" : {
+			"nationality" : "Greece",
+			"length" : 131,
+			"min" : 1.9126762812266065,
+			"max" : 4.152589808442401,
+			"avg" : 2.5757728284442716,
+			"avgBmi" : 2.5757728284442716
 		}
 	},
 	{
@@ -1960,17 +461,52 @@ MongoDB server version: 4.4.5
 			"length" : 16,
 			"min" : 1.9748973244733463,
 			"max" : 3.107848971764862,
-			"avg" : 2.643434938647296
+			"avg" : 2.643434938647296,
+			"avgBmi" : 2.643434938647296
 		}
 	},
 	{
-		"_id" : "Iraq",
+		"_id" : "Azerbaijan",
 		"value" : {
-			"nationality" : "Iraq",
-			"length" : 12,
-			"min" : 1.7811382149213075,
-			"max" : 3.323798843565602,
-			"avg" : 2.409773233677687
+			"nationality" : "Azerbaijan",
+			"length" : 32,
+			"min" : 1.8770569815679923,
+			"max" : 3.6933482172005756,
+			"avg" : 2.5953521178074688,
+			"avgBmi" : 2.5953521178074688
+		}
+	},
+	{
+		"_id" : "Northern Mariana Islands",
+		"value" : {
+			"nationality" : "Northern Mariana Islands",
+			"length" : 1,
+			"min" : 2.591232061098385,
+			"max" : 2.591232061098385,
+			"avg" : 2.591232061098385,
+			"avgBmi" : 2.591232061098385
+		}
+	},
+	{
+		"_id" : "Liberia",
+		"value" : {
+			"nationality" : "Liberia",
+			"length" : 6,
+			"min" : 2.2648192657509565,
+			"max" : 2.9633309101288834,
+			"avg" : 2.5901546538832037,
+			"avgBmi" : 2.5901546538832037
+		}
+	},
+	{
+		"_id" : "Australia",
+		"value" : {
+			"nationality" : "Australia",
+			"length" : 3,
+			"min" : 2.065310909810227,
+			"max" : 2.982455599343255,
+			"avg" : 2.519504715831007,
+			"avgBmi" : 2.519504715831007
 		}
 	},
 	{
@@ -1980,17 +516,19 @@ MongoDB server version: 4.4.5
 			"length" : 1,
 			"min" : 2.6421476125521512,
 			"max" : 2.6421476125521512,
-			"avg" : 2.6421476125521512
+			"avg" : 2.6421476125521512,
+			"avgBmi" : 2.6421476125521512
 		}
 	},
 	{
-		"_id" : "Swaziland",
+		"_id" : "Dominican Republic",
 		"value" : {
-			"nationality" : "Swaziland",
-			"length" : 1,
-			"min" : 2.0902625563889616,
-			"max" : 2.0902625563889616,
-			"avg" : 2.0902625563889616
+			"nationality" : "Dominican Republic",
+			"length" : 28,
+			"min" : 1.8012871199569411,
+			"max" : 3.0325493507337664,
+			"avg" : 2.415506178055435,
+			"avgBmi" : 2.415506178055435
 		}
 	},
 	{
@@ -2000,7 +538,1405 @@ MongoDB server version: 4.4.5
 			"length" : 2,
 			"min" : 2.5692486527991627,
 			"max" : 3.065208078150739,
-			"avg" : 2.817228365474951
+			"avg" : 2.817228365474951,
+			"avgBmi" : 2.817228365474951
+		}
+	},
+	{
+		"_id" : "Seychelles",
+		"value" : {
+			"nationality" : "Seychelles",
+			"length" : 1,
+			"min" : 2.571055175513673,
+			"max" : 2.571055175513673,
+			"avg" : 2.571055175513673,
+			"avgBmi" : 2.571055175513673
+		}
+	},
+	{
+		"_id" : "Swaziland",
+		"value" : {
+			"nationality" : "Swaziland",
+			"length" : 1,
+			"min" : 2.0902625563889616,
+			"max" : 2.0902625563889616,
+			"avg" : 2.0902625563889616,
+			"avgBmi" : 2.0902625563889616
+		}
+	},
+	{
+		"_id" : "Macao",
+		"value" : {
+			"nationality" : "Macao",
+			"length" : 1,
+			"min" : 2.3988477689826944,
+			"max" : 2.3988477689826944,
+			"avg" : 2.3988477689826944,
+			"avgBmi" : 2.3988477689826944
+		}
+	},
+	{
+		"_id" : "Finland",
+		"value" : {
+			"nationality" : "Finland",
+			"length" : 48,
+			"min" : 1.8313044445355133,
+			"max" : 3.688879211052598,
+			"avg" : 2.562844713976524,
+			"avgBmi" : 2.562844713976524
+		}
+	},
+	{
+		"_id" : "Vanuatu",
+		"value" : {
+			"nationality" : "Vanuatu",
+			"length" : 3,
+			"min" : 2.304931152277455,
+			"max" : 2.7207841480236588,
+			"avg" : 2.4697548912916893,
+			"avgBmi" : 2.4697548912916893
+		}
+	},
+	{
+		"_id" : "Western Sahara",
+		"value" : {
+			"nationality" : "Western Sahara",
+			"length" : 1,
+			"min" : 2.275109226188259,
+			"max" : 2.275109226188259,
+			"avg" : 2.275109226188259,
+			"avgBmi" : 2.275109226188259
+		}
+	},
+	{
+		"_id" : "Suriname",
+		"value" : {
+			"nationality" : "Suriname",
+			"length" : 1,
+			"min" : 3.038931494743512,
+			"max" : 3.038931494743512,
+			"avg" : 3.038931494743512,
+			"avgBmi" : 3.038931494743512
+		}
+	},
+	{
+		"_id" : "Aland Islands",
+		"value" : {
+			"nationality" : "Aland Islands",
+			"length" : 4,
+			"min" : 2.242250899543061,
+			"max" : 3.3929112148989558,
+			"avg" : 2.8162616489658907,
+			"avgBmi" : 2.8162616489658907
+		}
+	},
+	{
+		"_id" : "Wallis and Futuna",
+		"value" : {
+			"nationality" : "Wallis and Futuna",
+			"length" : 2,
+			"min" : 2.433390757821489,
+			"max" : 2.843117093855067,
+			"avg" : 2.638253925838278,
+			"avgBmi" : 2.638253925838278
+		}
+	},
+	{
+		"_id" : "Honduras",
+		"value" : {
+			"nationality" : "Honduras",
+			"length" : 38,
+			"min" : 1.8483295476526516,
+			"max" : 3.522066445474855,
+			"avg" : 2.5480342743338036,
+			"avgBmi" : 2.5480342743338036
+		}
+	},
+	{
+		"_id" : "Madagascar",
+		"value" : {
+			"nationality" : "Madagascar",
+			"length" : 30,
+			"min" : 1.7556666479697989,
+			"max" : 3.0189583737327377,
+			"avg" : 2.478315354739493,
+			"avgBmi" : 2.478315354739493
+		}
+	},
+	{
+		"_id" : "Cuba",
+		"value" : {
+			"nationality" : "Cuba",
+			"length" : 34,
+			"min" : 1.8489462979361966,
+			"max" : 3.5424098295679753,
+			"avg" : 2.637919135685751,
+			"avgBmi" : 2.637919135685751
+		}
+	},
+	{
+		"_id" : "Sierra Leone",
+		"value" : {
+			"nationality" : "Sierra Leone",
+			"length" : 10,
+			"min" : 1.9498876420531635,
+			"max" : 3.344826945468169,
+			"avg" : 2.5113042227498763,
+			"avgBmi" : 2.5113042227498763
+		}
+	},
+	{
+		"_id" : "Guatemala",
+		"value" : {
+			"nationality" : "Guatemala",
+			"length" : 36,
+			"min" : 1.9619608992088944,
+			"max" : 3.213075314700059,
+			"avg" : 2.5742899593543553,
+			"avgBmi" : 2.5742899593543553
+		}
+	},
+	{
+		"_id" : "Samoa",
+		"value" : {
+			"nationality" : "Samoa",
+			"length" : 1,
+			"min" : 2.0544882004532683,
+			"max" : 2.0544882004532683,
+			"avg" : 2.0544882004532683,
+			"avgBmi" : 2.0544882004532683
+		}
+	},
+	{
+		"_id" : "United States",
+		"value" : {
+			"nationality" : "United States",
+			"length" : 222,
+			"min" : 1.880366267168511,
+			"max" : 3.6695149419991684,
+			"avg" : 2.5746534319422314,
+			"avgBmi" : 2.5746534319422314
+		}
+	},
+	{
+		"_id" : "Canada",
+		"value" : {
+			"nationality" : "Canada",
+			"length" : 123,
+			"min" : 1.83379918200126,
+			"max" : 3.3613037538372215,
+			"avg" : 2.552290447489948,
+			"avgBmi" : 2.552290447489948
+		}
+	},
+	{
+		"_id" : "Nigeria",
+		"value" : {
+			"nationality" : "Nigeria",
+			"length" : 87,
+			"min" : 1.6860335772659223,
+			"max" : 3.6162778871974366,
+			"avg" : 2.4802388203011216,
+			"avgBmi" : 2.4802388203011216
+		}
+	},
+	{
+		"_id" : "Kenya",
+		"value" : {
+			"nationality" : "Kenya",
+			"length" : 21,
+			"min" : 2.1963094173998594,
+			"max" : 3.241597300136891,
+			"avg" : 2.584497767923738,
+			"avgBmi" : 2.584497767923738
+		}
+	},
+	{
+		"_id" : "Israel",
+		"value" : {
+			"nationality" : "Israel",
+			"length" : 22,
+			"min" : 2.1291597916349954,
+			"max" : 3.014483568029636,
+			"avg" : 2.5451689665589674,
+			"avgBmi" : 2.5451689665589674
+		}
+	},
+	{
+		"_id" : "Lebanon",
+		"value" : {
+			"nationality" : "Lebanon",
+			"length" : 6,
+			"min" : 2.2696782965005373,
+			"max" : 3.2444431072334527,
+			"avg" : 2.750900155800487,
+			"avgBmi" : 2.750900155800487
+		}
+	},
+	{
+		"_id" : "Indonesia",
+		"value" : {
+			"nationality" : "Indonesia",
+			"length" : 1060,
+			"min" : 1.4752916025545577,
+			"max" : 4.52254888114332,
+			"avg" : 2.549676266698911,
+			"avgBmi" : 2.549676266698911
+		}
+	},
+	{
+		"_id" : "Barbados",
+		"value" : {
+			"nationality" : "Barbados",
+			"length" : 1,
+			"min" : 2.1343242644513323,
+			"max" : 2.1343242644513323,
+			"avg" : 2.1343242644513323,
+			"avgBmi" : 2.1343242644513323
+		}
+	},
+	{
+		"_id" : "Norway",
+		"value" : {
+			"nationality" : "Norway",
+			"length" : 38,
+			"min" : 1.9602504292612466,
+			"max" : 3.516718168618179,
+			"avg" : 2.7012053304746866,
+			"avgBmi" : 2.7012053304746866
+		}
+	},
+	{
+		"_id" : "Latvia",
+		"value" : {
+			"nationality" : "Latvia",
+			"length" : 14,
+			"min" : 1.843553598869306,
+			"max" : 3.2887310535620524,
+			"avg" : 2.663477117739702,
+			"avgBmi" : 2.663477117739702
+		}
+	},
+	{
+		"_id" : "Germany",
+		"value" : {
+			"nationality" : "Germany",
+			"length" : 30,
+			"min" : 1.981281881812401,
+			"max" : 3.2563931924521765,
+			"avg" : 2.4621106995155952,
+			"avgBmi" : 2.4621106995155952
+		}
+	},
+	{
+		"_id" : "Kuwait",
+		"value" : {
+			"nationality" : "Kuwait",
+			"length" : 7,
+			"min" : 2.243979747671335,
+			"max" : 2.7184318738806668,
+			"avg" : 2.5231665011916378,
+			"avgBmi" : 2.5231665011916378
+		}
+	},
+	{
+		"_id" : "Qatar",
+		"value" : {
+			"nationality" : "Qatar",
+			"length" : 2,
+			"min" : 2.1901674383997087,
+			"max" : 2.9599291029472683,
+			"avg" : 2.5750482706734887,
+			"avgBmi" : 2.5750482706734887
+		}
+	},
+	{
+		"_id" : "Togo",
+		"value" : {
+			"nationality" : "Togo",
+			"length" : 5,
+			"min" : 2.148308917637091,
+			"max" : 2.455999969363162,
+			"avg" : 2.3268539811569156,
+			"avgBmi" : 2.3268539811569156
+		}
+	},
+	{
+		"_id" : "Guyana",
+		"value" : {
+			"nationality" : "Guyana",
+			"length" : 2,
+			"min" : 2.4096889211890877,
+			"max" : 2.8214370737868264,
+			"avg" : 2.615562997487957,
+			"avgBmi" : 2.615562997487957
+		}
+	},
+	{
+		"_id" : "Tajikistan",
+		"value" : {
+			"nationality" : "Tajikistan",
+			"length" : 11,
+			"min" : 1.9990278828313506,
+			"max" : 3.113265060582113,
+			"avg" : 2.4961843320223545,
+			"avgBmi" : 2.4961843320223545
+		}
+	},
+	{
+		"_id" : "Tunisia",
+		"value" : {
+			"nationality" : "Tunisia",
+			"length" : 29,
+			"min" : 1.8605190127554883,
+			"max" : 3.0378661433346,
+			"avg" : 2.419010019385633,
+			"avgBmi" : 2.419010019385633
+		}
+	},
+	{
+		"_id" : "Colombia",
+		"value" : {
+			"nationality" : "Colombia",
+			"length" : 150,
+			"min" : 1.8549317336103284,
+			"max" : 3.54010351305359,
+			"avg" : 2.577985802654869,
+			"avgBmi" : 2.577985802654869
+		}
+	},
+	{
+		"_id" : "El Salvador",
+		"value" : {
+			"nationality" : "El Salvador",
+			"length" : 16,
+			"min" : 2.1925828160659018,
+			"max" : 3.3562995764845316,
+			"avg" : 2.534836100144279,
+			"avgBmi" : 2.534836100144279
+		}
+	},
+	{
+		"_id" : "Angola",
+		"value" : {
+			"nationality" : "Angola",
+			"length" : 8,
+			"min" : 1.836240074409329,
+			"max" : 3.167480491405165,
+			"avg" : 2.417967562103932,
+			"avgBmi" : 2.417967562103932
+		}
+	},
+	{
+		"_id" : "Costa Rica",
+		"value" : {
+			"nationality" : "Costa Rica",
+			"length" : 16,
+			"min" : 2.049401094221192,
+			"max" : 2.8898569613792326,
+			"avg" : 2.4650437337200204,
+			"avgBmi" : 2.4650437337200204
+		}
+	},
+	{
+		"_id" : "Slovenia",
+		"value" : {
+			"nationality" : "Slovenia",
+			"length" : 38,
+			"min" : 1.7370385779694155,
+			"max" : 3.2661098753994495,
+			"avg" : 2.520987966125675,
+			"avgBmi" : 2.520987966125675
+		}
+	},
+	{
+		"_id" : "Ecuador",
+		"value" : {
+			"nationality" : "Ecuador",
+			"length" : 15,
+			"min" : 1.9837789435759385,
+			"max" : 3.154075759540046,
+			"avg" : 2.566255028757021,
+			"avgBmi" : 2.566255028757021
+		}
+	},
+	{
+		"_id" : "Puerto Rico",
+		"value" : {
+			"nationality" : "Puerto Rico",
+			"length" : 3,
+			"min" : 2.2624807178343223,
+			"max" : 2.7283415282531926,
+			"avg" : 2.5262349688052415,
+			"avgBmi" : 2.5262349688052415
+		}
+	},
+	{
+		"_id" : "Malta",
+		"value" : {
+			"nationality" : "Malta",
+			"length" : 14,
+			"min" : 2.21203842493067,
+			"max" : 3.6019789085882365,
+			"avg" : 2.616958044897124,
+			"avgBmi" : 2.616958044897124
+		}
+	},
+	{
+		"_id" : "Cameroon",
+		"value" : {
+			"nationality" : "Cameroon",
+			"length" : 20,
+			"min" : 1.968164695338018,
+			"max" : 3.317153919692311,
+			"avg" : 2.4636695335422303,
+			"avgBmi" : 2.4636695335422303
+		}
+	},
+	{
+		"_id" : "Ireland",
+		"value" : {
+			"nationality" : "Ireland",
+			"length" : 37,
+			"min" : 1.7753180049744592,
+			"max" : 3.3519500903908477,
+			"avg" : 2.594602693286139,
+			"avgBmi" : 2.594602693286139
+		}
+	},
+	{
+		"_id" : "Marshall Islands",
+		"value" : {
+			"nationality" : "Marshall Islands",
+			"length" : 3,
+			"min" : 2.2403515045781823,
+			"max" : 2.689988056197374,
+			"avg" : 2.4436222438810695,
+			"avgBmi" : 2.4436222438810695
+		}
+	},
+	{
+		"_id" : "North Korea",
+		"value" : {
+			"nationality" : "North Korea",
+			"length" : 13,
+			"min" : 2.0924212172010193,
+			"max" : 3.0614290364070977,
+			"avg" : 2.6205146023322587,
+			"avgBmi" : 2.6205146023322587
+		}
+	},
+	{
+		"_id" : "Jordan",
+		"value" : {
+			"nationality" : "Jordan",
+			"length" : 8,
+			"min" : 2.121020718956612,
+			"max" : 3.235315976803472,
+			"avg" : 2.6643190252349185,
+			"avgBmi" : 2.6643190252349185
+		}
+	},
+	{
+		"_id" : "China",
+		"value" : {
+			"nationality" : "China",
+			"length" : 1827,
+			"min" : 1.545756779740527,
+			"max" : 4.236228470295767,
+			"avg" : 2.5581559894071484,
+			"avgBmi" : 2.5581559894071484
+		}
+	},
+	{
+		"_id" : "Sweden",
+		"value" : {
+			"nationality" : "Sweden",
+			"length" : 260,
+			"min" : 1.8101186860208869,
+			"max" : 4.00885905616931,
+			"avg" : 2.575926441250587,
+			"avgBmi" : 2.575926441250587
+		}
+	},
+	{
+		"_id" : "Uzbekistan",
+		"value" : {
+			"nationality" : "Uzbekistan",
+			"length" : 24,
+			"min" : 1.9782197771015648,
+			"max" : 3.2304608512196578,
+			"avg" : 2.589508672058651,
+			"avgBmi" : 2.589508672058651
+		}
+	},
+	{
+		"_id" : "Myanmar",
+		"value" : {
+			"nationality" : "Myanmar",
+			"length" : 22,
+			"min" : 2.099743660839639,
+			"max" : 3.1448459395139454,
+			"avg" : 2.5964386191009896,
+			"avgBmi" : 2.5964386191009896
+		}
+	},
+	{
+		"_id" : "Netherlands",
+		"value" : {
+			"nationality" : "Netherlands",
+			"length" : 33,
+			"min" : 1.9375149151810973,
+			"max" : 3.4913790701413396,
+			"avg" : 2.602467655953886,
+			"avgBmi" : 2.602467655953886
+		}
+	},
+	{
+		"_id" : "Kosovo",
+		"value" : {
+			"nationality" : "Kosovo",
+			"length" : 6,
+			"min" : 1.9254012570630332,
+			"max" : 2.9624326587170815,
+			"avg" : 2.4130951832403817,
+			"avgBmi" : 2.4130951832403817
+		}
+	},
+	{
+		"_id" : "Eritrea",
+		"value" : {
+			"nationality" : "Eritrea",
+			"length" : 3,
+			"min" : 2.450268874944324,
+			"max" : 2.8706187680256323,
+			"avg" : 2.6186666767587794,
+			"avgBmi" : 2.6186666767587794
+		}
+	},
+	{
+		"_id" : "American Samoa",
+		"value" : {
+			"nationality" : "American Samoa",
+			"length" : 1,
+			"min" : 2.239833691807659,
+			"max" : 2.239833691807659,
+			"avg" : 2.239833691807659,
+			"avgBmi" : 2.239833691807659
+		}
+	},
+	{
+		"_id" : "Mozambique",
+		"value" : {
+			"nationality" : "Mozambique",
+			"length" : 6,
+			"min" : 2.2800359685650267,
+			"max" : 2.944789535394624,
+			"avg" : 2.556294360884168,
+			"avgBmi" : 2.556294360884168
+		}
+	},
+	{
+		"_id" : "French Polynesia",
+		"value" : {
+			"nationality" : "French Polynesia",
+			"length" : 5,
+			"min" : 2.029968846098141,
+			"max" : 2.8539227949185673,
+			"avg" : 2.5351408860541467,
+			"avgBmi" : 2.5351408860541467
+		}
+	},
+	{
+		"_id" : "Cape Verde",
+		"value" : {
+			"nationality" : "Cape Verde",
+			"length" : 6,
+			"min" : 1.920724222151505,
+			"max" : 3.504527266278727,
+			"avg" : 2.533466174988547,
+			"avgBmi" : 2.533466174988547
+		}
+	},
+	{
+		"_id" : "Palestinian Territory",
+		"value" : {
+			"nationality" : "Palestinian Territory",
+			"length" : 37,
+			"min" : 1.9179525110549178,
+			"max" : 3.554150728191123,
+			"avg" : 2.5519771078365188,
+			"avgBmi" : 2.5519771078365188
+		}
+	},
+	{
+		"_id" : "Japan",
+		"value" : {
+			"nationality" : "Japan",
+			"length" : 180,
+			"min" : 1.890452276508069,
+			"max" : 3.7208271542614155,
+			"avg" : 2.5288979118123063,
+			"avgBmi" : 2.5288979118123063
+		}
+	},
+	{
+		"_id" : "Central African Republic",
+		"value" : {
+			"nationality" : "Central African Republic",
+			"length" : 6,
+			"min" : 1.9614899401982282,
+			"max" : 2.895456123722056,
+			"avg" : 2.3916787330266964,
+			"avgBmi" : 2.3916787330266964
+		}
+	},
+	{
+		"_id" : "Saudi Arabia",
+		"value" : {
+			"nationality" : "Saudi Arabia",
+			"length" : 8,
+			"min" : 1.9971991294865286,
+			"max" : 3.2095388696280183,
+			"avg" : 2.567648497567066,
+			"avgBmi" : 2.567648497567066
+		}
+	},
+	{
+		"_id" : "Venezuela",
+		"value" : {
+			"nationality" : "Venezuela",
+			"length" : 38,
+			"min" : 1.9136466798568403,
+			"max" : 3.1135855490289446,
+			"avg" : 2.4913624546028568,
+			"avgBmi" : 2.4913624546028568
+		}
+	},
+	{
+		"_id" : "Comoros",
+		"value" : {
+			"nationality" : "Comoros",
+			"length" : 10,
+			"min" : 1.9736788594015309,
+			"max" : 3.386465840113391,
+			"avg" : 2.5439043034337954,
+			"avgBmi" : 2.5439043034337954
+		}
+	},
+	{
+		"_id" : "Malawi",
+		"value" : {
+			"nationality" : "Malawi",
+			"length" : 5,
+			"min" : 2.329026327914253,
+			"max" : 3.0498934041274013,
+			"avg" : 2.729914270013302,
+			"avgBmi" : 2.729914270013302
+		}
+	},
+	{
+		"_id" : "Zimbabwe",
+		"value" : {
+			"nationality" : "Zimbabwe",
+			"length" : 15,
+			"min" : 2.2609825375832817,
+			"max" : 3.5120277734029917,
+			"avg" : 2.6975918802407333,
+			"avgBmi" : 2.6975918802407333
+		}
+	},
+	{
+		"_id" : "Sudan",
+		"value" : {
+			"nationality" : "Sudan",
+			"length" : 8,
+			"min" : 2.2771848958184258,
+			"max" : 2.6388338263210724,
+			"avg" : 2.4951753358198894,
+			"avgBmi" : 2.4951753358198894
+		}
+	},
+	{
+		"_id" : "United Kingdom",
+		"value" : {
+			"nationality" : "United Kingdom",
+			"length" : 18,
+			"min" : 1.9427928671881647,
+			"max" : 3.190315898243853,
+			"avg" : 2.378573603898099,
+			"avgBmi" : 2.378573603898099
+		}
+	},
+	{
+		"_id" : "Russia",
+		"value" : {
+			"nationality" : "Russia",
+			"length" : 596,
+			"min" : 1.7631221751685486,
+			"max" : 3.988445766499928,
+			"avg" : 2.5399125306930723,
+			"avgBmi" : 2.5399125306930723
+		}
+	},
+	{
+		"_id" : "South Korea",
+		"value" : {
+			"nationality" : "South Korea",
+			"length" : 41,
+			"min" : 1.948185862847715,
+			"max" : 3.1353844450262813,
+			"avg" : 2.4681886948748932,
+			"avgBmi" : 2.4681886948748932
+		}
+	},
+	{
+		"_id" : "Gambia",
+		"value" : {
+			"nationality" : "Gambia",
+			"length" : 9,
+			"min" : 1.7840466777748911,
+			"max" : 2.904151838075552,
+			"avg" : 2.3773405222453228,
+			"avgBmi" : 2.3773405222453228
+		}
+	},
+	{
+		"_id" : "Serbia",
+		"value" : {
+			"nationality" : "Serbia",
+			"length" : 58,
+			"min" : 1.9731808801556265,
+			"max" : 4.35483280468202,
+			"avg" : 2.5789440843944176,
+			"avgBmi" : 2.5789440843944176
+		}
+	},
+	{
+		"_id" : "Botswana",
+		"value" : {
+			"nationality" : "Botswana",
+			"length" : 12,
+			"min" : 2.166103584914847,
+			"max" : 2.718178743838766,
+			"avg" : 2.4653017456531434,
+			"avgBmi" : 2.4653017456531434
+		}
+	},
+	{
+		"_id" : "South Africa",
+		"value" : {
+			"nationality" : "South Africa",
+			"length" : 48,
+			"min" : 1.7335043301262825,
+			"max" : 4.054150514193363,
+			"avg" : 2.586499470004275,
+			"avgBmi" : 2.586499470004275
+		}
+	},
+	{
+		"_id" : "Chad",
+		"value" : {
+			"nationality" : "Chad",
+			"length" : 5,
+			"min" : 1.93797121228698,
+			"max" : 3.2148676619544636,
+			"avg" : 2.590576302097001,
+			"avgBmi" : 2.590576302097001
+		}
+	},
+	{
+		"_id" : "Portugal",
+		"value" : {
+			"nationality" : "Portugal",
+			"length" : 310,
+			"min" : 1.7253277918955943,
+			"max" : 3.9667890196201694,
+			"avg" : 2.547361404453798,
+			"avgBmi" : 2.547361404453798
+		}
+	},
+	{
+		"_id" : "Luxembourg",
+		"value" : {
+			"nationality" : "Luxembourg",
+			"length" : 19,
+			"min" : 1.9267057864459571,
+			"max" : 3.3219351226480156,
+			"avg" : 2.631112838002146,
+			"avgBmi" : 2.631112838002146
+		}
+	},
+	{
+		"_id" : "Trinidad and Tobago",
+		"value" : {
+			"nationality" : "Trinidad and Tobago",
+			"length" : 4,
+			"min" : 2.2714055076873128,
+			"max" : 3.1519844903401175,
+			"avg" : 2.7598645704582987,
+			"avgBmi" : 2.7598645704582987
+		}
+	},
+	{
+		"_id" : "Afghanistan",
+		"value" : {
+			"nationality" : "Afghanistan",
+			"length" : 38,
+			"min" : 1.84302993485763,
+			"max" : 3.168072427781462,
+			"avg" : 2.5048400880254937,
+			"avgBmi" : 2.5048400880254937
+		}
+	},
+	{
+		"_id" : "Hong Kong",
+		"value" : {
+			"nationality" : "Hong Kong",
+			"length" : 1,
+			"min" : 2.728283221221082,
+			"max" : 2.728283221221082,
+			"avg" : 2.728283221221082,
+			"avgBmi" : 2.728283221221082
+		}
+	},
+	{
+		"_id" : "Bolivia",
+		"value" : {
+			"nationality" : "Bolivia",
+			"length" : 26,
+			"min" : 2.046124473638279,
+			"max" : 3.204862302606188,
+			"avg" : 2.529160675430759,
+			"avgBmi" : 2.529160675430759
+		}
+	},
+	{
+		"_id" : "Cyprus",
+		"value" : {
+			"nationality" : "Cyprus",
+			"length" : 5,
+			"min" : 2.219514173678794,
+			"max" : 2.982548972839575,
+			"avg" : 2.5193792192011824,
+			"avgBmi" : 2.5193792192011824
+		}
+	},
+	{
+		"_id" : "Panama",
+		"value" : {
+			"nationality" : "Panama",
+			"length" : 26,
+			"min" : 2.0497034879989777,
+			"max" : 3.3204916913317146,
+			"avg" : 2.499226462988103,
+			"avgBmi" : 2.499226462988103
+		}
+	},
+	{
+		"_id" : "Mauritania",
+		"value" : {
+			"nationality" : "Mauritania",
+			"length" : 2,
+			"min" : 2.0427479249813243,
+			"max" : 2.26996212151413,
+			"avg" : 2.156355023247727,
+			"avgBmi" : 2.156355023247727
+		}
+	},
+	{
+		"_id" : "Maldives",
+		"value" : {
+			"nationality" : "Maldives",
+			"length" : 5,
+			"min" : 2.3654619429922965,
+			"max" : 2.8258302397598007,
+			"avg" : 2.5389870790829354,
+			"avgBmi" : 2.5389870790829354
+		}
+	},
+	{
+		"_id" : "New Caledonia",
+		"value" : {
+			"nationality" : "New Caledonia",
+			"length" : 2,
+			"min" : 2.407180767559938,
+			"max" : 2.6939955901091706,
+			"avg" : 2.5505881788345546,
+			"avgBmi" : 2.5505881788345546
+		}
+	},
+	{
+		"_id" : "Mauritius",
+		"value" : {
+			"nationality" : "Mauritius",
+			"length" : 13,
+			"min" : 1.9225308641975307,
+			"max" : 3.8863421084463057,
+			"avg" : 2.549360782117101,
+			"avgBmi" : 2.549360782117101
+		}
+	},
+	{
+		"_id" : "Palau",
+		"value" : {
+			"nationality" : "Palau",
+			"length" : 2,
+			"min" : 2.923870542868914,
+			"max" : 2.9999359959047864,
+			"avg" : 2.96190326938685,
+			"avgBmi" : 2.96190326938685
+		}
+	},
+	{
+		"_id" : "Hungary",
+		"value" : {
+			"nationality" : "Hungary",
+			"length" : 6,
+			"min" : 2.2357117184320283,
+			"max" : 3.269237888437416,
+			"avg" : 2.6314073634053803,
+			"avgBmi" : 2.6314073634053803
+		}
+	},
+	{
+		"_id" : "Haiti",
+		"value" : {
+			"nationality" : "Haiti",
+			"length" : 11,
+			"min" : 2.1953951096958053,
+			"max" : 3.4706505929936307,
+			"avg" : 2.6053500838405976,
+			"avgBmi" : 2.6053500838405976
+		}
+	},
+	{
+		"_id" : "Jamaica",
+		"value" : {
+			"nationality" : "Jamaica",
+			"length" : 10,
+			"min" : 2.2275369146558597,
+			"max" : 2.8975717835121535,
+			"avg" : 2.4931498920250346,
+			"avgBmi" : 2.4931498920250346
+		}
+	},
+	{
+		"_id" : "Denmark",
+		"value" : {
+			"nationality" : "Denmark",
+			"length" : 9,
+			"min" : 2.108473436367003,
+			"max" : 2.78248605984213,
+			"avg" : 2.3570666794473016,
+			"avgBmi" : 2.3570666794473016
+		}
+	},
+	{
+		"_id" : "Turkmenistan",
+		"value" : {
+			"nationality" : "Turkmenistan",
+			"length" : 10,
+			"min" : 2.1536036875349125,
+			"max" : 3.0263793694794967,
+			"avg" : 2.607469340623342,
+			"avgBmi" : 2.607469340623342
+		}
+	},
+	{
+		"_id" : "Democratic Republic of the Congo",
+		"value" : {
+			"nationality" : "Democratic Republic of the Congo",
+			"length" : 18,
+			"min" : 1.8275531401604772,
+			"max" : 3.3515401571866743,
+			"avg" : 2.65302712054953,
+			"avgBmi" : 2.65302712054953
+		}
+	},
+	{
+		"_id" : "Peru",
+		"value" : {
+			"nationality" : "Peru",
+			"length" : 145,
+			"min" : 1.780600236198692,
+			"max" : 3.636334544992971,
+			"avg" : 2.527264557662211,
+			"avgBmi" : 2.527264557662211
+		}
+	},
+	{
+		"_id" : "Ivory Coast",
+		"value" : {
+			"nationality" : "Ivory Coast",
+			"length" : 15,
+			"min" : 2.049720267946944,
+			"max" : 3.5265658582249126,
+			"avg" : 2.6739162218304364,
+			"avgBmi" : 2.6739162218304364
+		}
+	},
+	{
+		"_id" : "Iceland",
+		"value" : {
+			"nationality" : "Iceland",
+			"length" : 6,
+			"min" : 2.2674667319714628,
+			"max" : 3.0147382261951026,
+			"avg" : 2.5590950932535756,
+			"avgBmi" : 2.5590950932535756
+		}
+	},
+	{
+		"_id" : "Chile",
+		"value" : {
+			"nationality" : "Chile",
+			"length" : 28,
+			"min" : 1.6951291627010803,
+			"max" : 2.9798858408255153,
+			"avg" : 2.486968056067229,
+			"avgBmi" : 2.486968056067229
+		}
+	},
+	{
+		"_id" : "Taiwan",
+		"value" : {
+			"nationality" : "Taiwan",
+			"length" : 5,
+			"min" : 2.0359929764833224,
+			"max" : 3.117139169587829,
+			"avg" : 2.6610153474174836,
+			"avgBmi" : 2.6610153474174836
+		}
+	},
+	{
+		"_id" : "Georgia",
+		"value" : {
+			"nationality" : "Georgia",
+			"length" : 14,
+			"min" : 1.990778936769029,
+			"max" : 2.7696307048280797,
+			"avg" : 2.4320295824417713,
+			"avgBmi" : 2.4320295824417713
+		}
+	},
+	{
+		"_id" : "Oman",
+		"value" : {
+			"nationality" : "Oman",
+			"length" : 3,
+			"min" : 2.359950905408423,
+			"max" : 2.708402216179085,
+			"avg" : 2.5688221135833005,
+			"avgBmi" : 2.5688221135833005
+		}
+	},
+	{
+		"_id" : "Belgium",
+		"value" : {
+			"nationality" : "Belgium",
+			"length" : 5,
+			"min" : 2.0047926099827214,
+			"max" : 2.8997682388567076,
+			"avg" : 2.6140778626016408,
+			"avgBmi" : 2.6140778626016408
+		}
+	},
+	{
+		"_id" : "Argentina",
+		"value" : {
+			"nationality" : "Argentina",
+			"length" : 147,
+			"min" : 1.758733455568425,
+			"max" : 3.4132240631856043,
+			"avg" : 2.5676814042428506,
+			"avgBmi" : 2.5676814042428506
+		}
+	},
+	{
+		"_id" : "Benin",
+		"value" : {
+			"nationality" : "Benin",
+			"length" : 7,
+			"min" : 2.1326707132619114,
+			"max" : 3.0296481888974,
+			"avg" : 2.5778364569961796,
+			"avgBmi" : 2.5778364569961796
+		}
+	},
+	{
+		"_id" : "Guam",
+		"value" : {
+			"nationality" : "Guam",
+			"length" : 3,
+			"min" : 2.0673090321864906,
+			"max" : 2.4012673635721278,
+			"avg" : 2.2450193658121718,
+			"avgBmi" : 2.2450193658121718
+		}
+	},
+	{
+		"_id" : "Ukraine",
+		"value" : {
+			"nationality" : "Ukraine",
+			"length" : 164,
+			"min" : 1.7021559565054984,
+			"max" : 3.6842227563723635,
+			"avg" : 2.520615536401978,
+			"avgBmi" : 2.520615536401978
+		}
+	},
+	{
+		"_id" : "Guinea",
+		"value" : {
+			"nationality" : "Guinea",
+			"length" : 8,
+			"min" : 2.0460478773371795,
+			"max" : 3.4462128538412364,
+			"avg" : 2.7914221596798203,
+			"avgBmi" : 2.7914221596798203
+		}
+	},
+	{
+		"_id" : "Niger",
+		"value" : {
+			"nationality" : "Niger",
+			"length" : 8,
+			"min" : 2.007204296186382,
+			"max" : 3.022683231486928,
+			"avg" : 2.6384679570852145,
+			"avgBmi" : 2.6384679570852145
+		}
+	},
+	{
+		"_id" : "Bosnia and Herzegovina",
+		"value" : {
+			"nationality" : "Bosnia and Herzegovina",
+			"length" : 32,
+			"min" : 1.6930664311421884,
+			"max" : 3.5973950079941273,
+			"avg" : 2.5418629730315736,
+			"avgBmi" : 2.5418629730315736
+		}
+	},
+	{
+		"_id" : "South Sudan",
+		"value" : {
+			"nationality" : "South Sudan",
+			"length" : 1,
+			"min" : 2.5958795187276635,
+			"max" : 2.5958795187276635,
+			"avg" : 2.5958795187276635,
+			"avgBmi" : 2.5958795187276635
+		}
+	},
+	{
+		"_id" : "Uruguay",
+		"value" : {
+			"nationality" : "Uruguay",
+			"length" : 13,
+			"min" : 2.0368800960879323,
+			"max" : 3.4361426322308106,
+			"avg" : 2.5324761962268356,
+			"avgBmi" : 2.5324761962268356
+		}
+	},
+	{
+		"_id" : "Zambia",
+		"value" : {
+			"nationality" : "Zambia",
+			"length" : 8,
+			"min" : 2.0338719513529027,
+			"max" : 3.1448646035048586,
+			"avg" : 2.5857875377943595,
+			"avgBmi" : 2.5857875377943595
+		}
+	},
+	{
+		"_id" : "Morocco",
+		"value" : {
+			"nationality" : "Morocco",
+			"length" : 34,
+			"min" : 2.0182304322324796,
+			"max" : 3.2906040192137875,
+			"avg" : 2.5874999241815946,
+			"avgBmi" : 2.5874999241815946
+		}
+	},
+	{
+		"_id" : "Ghana",
+		"value" : {
+			"nationality" : "Ghana",
+			"length" : 9,
+			"min" : 2.2309636417250767,
+			"max" : 3.2504337277875828,
+			"avg" : 2.5844519996457063,
+			"avgBmi" : 2.5844519996457063
+		}
+	},
+	{
+		"_id" : "Yemen",
+		"value" : {
+			"nationality" : "Yemen",
+			"length" : 33,
+			"min" : 2.091065689284758,
+			"max" : 3.485489627858924,
+			"avg" : 2.5520741902141806,
+			"avgBmi" : 2.5520741902141806
+		}
+	},
+	{
+		"_id" : "East Timor",
+		"value" : {
+			"nationality" : "East Timor",
+			"length" : 4,
+			"min" : 2.1525145394421963,
+			"max" : 3.27295665335962,
+			"avg" : 2.5827978752662304,
+			"avgBmi" : 2.5827978752662304
+		}
+	},
+	{
+		"_id" : "Burundi",
+		"value" : {
+			"nationality" : "Burundi",
+			"length" : 3,
+			"min" : 2.341760581267604,
+			"max" : 2.8502450131594546,
+			"avg" : 2.564831294896216,
+			"avgBmi" : 2.564831294896216
+		}
+	},
+	{
+		"_id" : "Armenia",
+		"value" : {
+			"nationality" : "Armenia",
+			"length" : 39,
+			"min" : 1.9173869330022848,
+			"max" : 3.166851100446302,
+			"avg" : 2.4941789322543046,
+			"avgBmi" : 2.4941789322543046
+		}
+	},
+	{
+		"_id" : "Saint Kitts and Nevis",
+		"value" : {
+			"nationality" : "Saint Kitts and Nevis",
+			"length" : 4,
+			"min" : 2.518137321901941,
+			"max" : 3.006261206327215,
+			"avg" : 2.780112893513996,
+			"avgBmi" : 2.780112893513996
+		}
+	},
+	{
+		"_id" : "Iraq",
+		"value" : {
+			"nationality" : "Iraq",
+			"length" : 12,
+			"min" : 1.7811382149213075,
+			"max" : 3.323798843565602,
+			"avg" : 2.409773233677687,
+			"avgBmi" : 2.409773233677687
+		}
+	},
+	{
+		"_id" : "Czech Republic",
+		"value" : {
+			"nationality" : "Czech Republic",
+			"length" : 161,
+			"min" : 1.856386639676774,
+			"max" : 3.31519013359832,
+			"avg" : 2.5234554286525275,
+			"avgBmi" : 2.5234554286525275
+		}
+	},
+	{
+		"_id" : "Ethiopia",
+		"value" : {
+			"nationality" : "Ethiopia",
+			"length" : 25,
+			"min" : 2.0553672857450285,
+			"max" : 3.285411863239378,
+			"avg" : 2.5473965952790034,
+			"avgBmi" : 2.5473965952790034
+		}
+	},
+	{
+		"_id" : "Uganda",
+		"value" : {
+			"nationality" : "Uganda",
+			"length" : 22,
+			"min" : 2.0585897193172045,
+			"max" : 3.324570873490975,
+			"avg" : 2.579992632681938,
+			"avgBmi" : 2.579992632681938
+		}
+	},
+	{
+		"_id" : "Belize",
+		"value" : {
+			"nationality" : "Belize",
+			"length" : 4,
+			"min" : 1.8424047224128546,
+			"max" : 2.622341661344843,
+			"avg" : 2.3220039319907464,
+			"avgBmi" : 2.3220039319907464
+		}
+	},
+	{
+		"_id" : "Paraguay",
+		"value" : {
+			"nationality" : "Paraguay",
+			"length" : 17,
+			"min" : 2.1194188847738653,
+			"max" : 3.2977747972845006,
+			"avg" : 2.5118908017345474,
+			"avgBmi" : 2.5118908017345474
+		}
+	},
+	{
+		"_id" : "Monaco",
+		"value" : {
+			"nationality" : "Monaco",
+			"length" : 1,
+			"min" : 2.89279758282314,
+			"max" : 2.89279758282314,
+			"avg" : 2.89279758282314,
+			"avgBmi" : 2.89279758282314
+		}
+	},
+	{
+		"_id" : "Moldova",
+		"value" : {
+			"nationality" : "Moldova",
+			"length" : 14,
+			"min" : 1.9688381123290277,
+			"max" : 3.256715420989366,
+			"avg" : 2.557295819429361,
+			"avgBmi" : 2.557295819429361
+		}
+	},
+	{
+		"_id" : "Mali",
+		"value" : {
+			"nationality" : "Mali",
+			"length" : 12,
+			"min" : 1.924668555616468,
+			"max" : 3.167016743066081,
+			"avg" : 2.491941030275992,
+			"avgBmi" : 2.491941030275992
+		}
+	},
+	{
+		"_id" : "Montenegro",
+		"value" : {
+			"nationality" : "Montenegro",
+			"length" : 9,
+			"min" : 2.0736590894434217,
+			"max" : 2.952690966743399,
+			"avg" : 2.4006170716842257,
+			"avgBmi" : 2.4006170716842257
 		}
 	},
 	{
@@ -2010,7 +1946,272 @@ MongoDB server version: 4.4.5
 			"length" : 2,
 			"min" : 2.2218504166585915,
 			"max" : 2.410306547410402,
-			"avg" : 2.316078482034497
+			"avg" : 2.316078482034497,
+			"avgBmi" : 2.316078482034497
+		}
+	},
+	{
+		"_id" : "Republic of the Congo",
+		"value" : {
+			"nationality" : "Republic of the Congo",
+			"length" : 3,
+			"min" : 1.7661407823502013,
+			"max" : 3.040321009942462,
+			"avg" : 2.5559867696319754,
+			"avgBmi" : 2.5559867696319754
+		}
+	},
+	{
+		"_id" : "Philippines",
+		"value" : {
+			"nationality" : "Philippines",
+			"length" : 518,
+			"min" : 1.7747775714237721,
+			"max" : 4.0149218778204965,
+			"avg" : 2.520640754830297,
+			"avgBmi" : 2.520640754830297
+		}
+	},
+	{
+		"_id" : "Nicaragua",
+		"value" : {
+			"nationality" : "Nicaragua",
+			"length" : 15,
+			"min" : 1.9775488264201302,
+			"max" : 3.0037211079338597,
+			"avg" : 2.417094824384103,
+			"avgBmi" : 2.417094824384103
+		}
+	},
+	{
+		"_id" : "Turkey",
+		"value" : {
+			"nationality" : "Turkey",
+			"length" : 3,
+			"min" : 2.271234002430647,
+			"max" : 2.3218818230827427,
+			"avg" : 2.299159106196313,
+			"avgBmi" : 2.299159106196313
+		}
+	},
+	{
+		"_id" : "Brazil",
+		"value" : {
+			"nationality" : "Brazil",
+			"length" : 375,
+			"min" : 1.7455901881799916,
+			"max" : 4.062913727068199,
+			"avg" : 2.5618104713178713,
+			"avgBmi" : 2.5618104713178713
+		}
+	},
+	{
+		"_id" : "Bhutan",
+		"value" : {
+			"nationality" : "Bhutan",
+			"length" : 6,
+			"min" : 1.941885638320743,
+			"max" : 3.135770002294631,
+			"avg" : 2.4056604894582003,
+			"avgBmi" : 2.4056604894582003
+		}
+	},
+	{
+		"_id" : "Greenland",
+		"value" : {
+			"nationality" : "Greenland",
+			"length" : 1,
+			"min" : 2.587231726224435,
+			"max" : 2.587231726224435,
+			"avg" : 2.587231726224435,
+			"avgBmi" : 2.587231726224435
+		}
+	},
+	{
+		"_id" : "French Guiana",
+		"value" : {
+			"nationality" : "French Guiana",
+			"length" : 2,
+			"min" : 2.2271800501837578,
+			"max" : 2.8911219025396604,
+			"avg" : 2.559150976361709,
+			"avgBmi" : 2.559150976361709
+		}
+	},
+	{
+		"_id" : "Guinea-Bissau",
+		"value" : {
+			"nationality" : "Guinea-Bissau",
+			"length" : 3,
+			"min" : 2.3285128184292065,
+			"max" : 2.654403588086242,
+			"avg" : 2.4427204123390514,
+			"avgBmi" : 2.4427204123390514
+		}
+	},
+	{
+		"_id" : "Gabon",
+		"value" : {
+			"nationality" : "Gabon",
+			"length" : 2,
+			"min" : 2.2266802561601597,
+			"max" : 2.9048270894929464,
+			"avg" : 2.565753672826553,
+			"avgBmi" : 2.565753672826553
+		}
+	},
+	{
+		"_id" : "Albania",
+		"value" : {
+			"nationality" : "Albania",
+			"length" : 38,
+			"min" : 1.8995343497963386,
+			"max" : 3.198582559382973,
+			"avg" : 2.470893828760488,
+			"avgBmi" : 2.470893828760488
+		}
+	},
+	{
+		"_id" : "Fiji",
+		"value" : {
+			"nationality" : "Fiji",
+			"length" : 1,
+			"min" : 2.1202149695398855,
+			"max" : 2.1202149695398855,
+			"avg" : 2.1202149695398855,
+			"avgBmi" : 2.1202149695398855
+		}
+	},
+	{
+		"_id" : "Estonia",
+		"value" : {
+			"nationality" : "Estonia",
+			"length" : 11,
+			"min" : 1.8560878620789445,
+			"max" : 2.868360155605993,
+			"avg" : 2.554213616931857,
+			"avgBmi" : 2.554213616931857
+		}
+	},
+	{
+		"_id" : "Rwanda",
+		"value" : {
+			"nationality" : "Rwanda",
+			"length" : 3,
+			"min" : 2.283495766227415,
+			"max" : 2.760395919371098,
+			"avg" : 2.596047518885389,
+			"avgBmi" : 2.596047518885389
+		}
+	},
+	{
+		"_id" : "Equatorial Guinea",
+		"value" : {
+			"nationality" : "Equatorial Guinea",
+			"length" : 1,
+			"min" : 2.4784158605052227,
+			"max" : 2.4784158605052227,
+			"avg" : 2.4784158605052227,
+			"avgBmi" : 2.4784158605052227
+		}
+	},
+	{
+		"_id" : "Somalia",
+		"value" : {
+			"nationality" : "Somalia",
+			"length" : 1,
+			"min" : 2.9953705951906366,
+			"max" : 2.9953705951906366,
+			"avg" : 2.9953705951906366,
+			"avgBmi" : 2.9953705951906366
+		}
+	},
+	{
+		"_id" : "Kazakhstan",
+		"value" : {
+			"nationality" : "Kazakhstan",
+			"length" : 29,
+			"min" : 1.6807079935832503,
+			"max" : 3.689674012515099,
+			"avg" : 2.5872296835537165,
+			"avgBmi" : 2.5872296835537165
+		}
+	},
+	{
+		"_id" : "Senegal",
+		"value" : {
+			"nationality" : "Senegal",
+			"length" : 9,
+			"min" : 2.110083404913989,
+			"max" : 2.6591448446940533,
+			"avg" : 2.341557086385516,
+			"avgBmi" : 2.341557086385516
+		}
+	},
+	{
+		"_id" : "Sri Lanka",
+		"value" : {
+			"nationality" : "Sri Lanka",
+			"length" : 9,
+			"min" : 2.074442158168758,
+			"max" : 2.8603619664191675,
+			"avg" : 2.4576523965721475,
+			"avgBmi" : 2.4576523965721475
+		}
+	},
+	{
+		"_id" : "Tuvalu",
+		"value" : {
+			"nationality" : "Tuvalu",
+			"length" : 1,
+			"min" : 2.260418435695907,
+			"max" : 2.260418435695907,
+			"avg" : 2.260418435695907,
+			"avgBmi" : 2.260418435695907
+		}
+	},
+	{
+		"_id" : "Macedonia",
+		"value" : {
+			"nationality" : "Macedonia",
+			"length" : 30,
+			"min" : 2.04950521872469,
+			"max" : 3.2525694177860536,
+			"avg" : 2.516954316733825,
+			"avgBmi" : 2.516954316733825
+		}
+	},
+	{
+		"_id" : "Libya",
+		"value" : {
+			"nationality" : "Libya",
+			"length" : 13,
+			"min" : 2.1427423728295794,
+			"max" : 3.514959498858504,
+			"avg" : 2.727409420047268,
+			"avgBmi" : 2.727409420047268
+		}
+	},
+	{
+		"_id" : "Mexico",
+		"value" : {
+			"nationality" : "Mexico",
+			"length" : 90,
+			"min" : 1.8917857995347576,
+			"max" : 3.62708751496718,
+			"avg" : 2.547429001960035,
+			"avgBmi" : 2.547429001960035
+		}
+	},
+	{
+		"_id" : "Brunei",
+		"value" : {
+			"nationality" : "Brunei",
+			"length" : 1,
+			"min" : 2.502697259105827,
+			"max" : 2.502697259105827,
+			"avg" : 2.502697259105827,
+			"avgBmi" : 2.502697259105827
 		}
 	}
 ]
